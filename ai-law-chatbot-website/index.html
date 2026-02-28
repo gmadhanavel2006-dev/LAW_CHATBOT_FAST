@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal AI Law Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>⚖️ Royal AI Law Chatbot</h1>
+    <p>Global Legal Intelligence System</p>
+</header>
+
+<main class="card">
+    <label>📝 Describe Your Legal Issue</label>
+    <textarea id="userInput" placeholder="Explain your problem in English, Tamil, or Hindi..."></textarea>
+
+    <div class="row">
+        <div>
+            <label>🌍 Country</label>
+            <select id="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+
+        <div>
+            <label>👤 User Role</label>
+            <select id="role">
+                <option value="citizen">Citizen</option>
+                <option value="lawyer">Lawyer</option>
+                <option value="accused">Accused</option>
+            </select>
+        </div>
+    </div>
+
+    <button onclick="sendQuery()">Get Legal Guidance</button>
+
+    <section id="result" class="result-box"></section>
+</main>
+
+<footer class="footer">
+    <p>© 2026 Royal AI Law Assistant • Final Year Major Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
