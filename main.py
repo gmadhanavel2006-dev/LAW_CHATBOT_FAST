@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 from agents.language_agent import detect_language
 from agents.ml_intent_agent import MLIntentClassifier
@@ -12,6 +13,15 @@ from agents.translation_agent import (
 )
 
 # -------------------------
+# REQUEST MODEL (IMPORTANT)
+# -------------------------
+class ChatRequest(BaseModel):
+    user_input: str
+    country: str = "india"
+    user_role: str = "citizen"
+
+
+# -------------------------
 # APP INITIALIZATION
 # -------------------------
 app = FastAPI(
@@ -22,24 +32,23 @@ app = FastAPI(
 
 # -------------------------
 # CORS CONFIGURATION
-# (MANDATORY FOR WEBSITE)
 # -------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins (safe for academic project)
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 # -------------------------
-# ML MODEL INITIALIZATION
+# ML MODEL
 # -------------------------
 intent_model = MLIntentClassifier()
 
 
 # -------------------------
-# STARTUP EVENT
+# STARTUP
 # -------------------------
 @app.on_event("startup")
 def startup_event():
@@ -49,7 +58,7 @@ def startup_event():
 
 
 # -------------------------
-# HOME ROUTE (HEALTH CHECK)
+# HOME
 # -------------------------
 @app.get("/")
 def home():
@@ -62,21 +71,21 @@ def home():
 
 
 # -------------------------
-# MAIN CHAT API
+# CHAT API (JSON BODY)
 # -------------------------
 @app.post("/chat")
-def chat(
-    user_input: str,
-    country: str = "india",
-    user_role: str = "citizen"
-):
+def chat(request: ChatRequest):
+    user_input = request.user_input
+    country = request.country.lower()
+    user_role = request.user_role.lower()
+
     # 1️⃣ Detect language
     detected_lang = detect_language(user_input)
 
-    # 2️⃣ Translate to English (processing language)
+    # 2️⃣ Translate to English
     processed_input = translate_to_english(user_input, detected_lang)
 
-    # 3️⃣ Predict legal intent using ML
+    # 3️⃣ Predict intent
     intent = intent_model.predict(processed_input)
 
     if intent == "unknown":
@@ -84,7 +93,7 @@ def chat(
             "message": "Unable to identify the legal issue. Please provide more details."
         }
 
-    # 4️⃣ Load country-specific law data
+    # 4️⃣ Load law data
     laws, meta = load_latest_law_data(country)
 
     if intent not in laws:
@@ -94,10 +103,10 @@ def chat(
 
     law_info = laws[intent]
 
-    # 5️⃣ Legal reasoning engine
+    # 5️⃣ Reasoning
     reasoning = legal_reasoning(intent, processed_input, law_info)
 
-    # 6️⃣ Build role-based response
+    # 6️⃣ Response
     response = build_response(
         intent=intent,
         law_info=law_info,
@@ -105,17 +114,19 @@ def chat(
         user_role=user_role
     )
 
-    response["legal_reasoning"] = reasoning
-    response["country"] = country
-    response["user_role"] = user_role
-    response["language_detected"] = detected_lang
+    response.update({
+        "legal_reasoning": reasoning,
+        "country": country,
+        "user_role": user_role,
+        "language_detected": detected_lang
+    })
 
-    # 7️⃣ Translate response back to user language
-    translated_response = {}
-    for key, value in response.items():
-        if isinstance(value, str):
-            translated_response[key] = translate_from_english(value, detected_lang)
-        else:
-            translated_response[key] = value
+    # 7️⃣ Translate back
+    final_response = {}
+    for k, v in response.items():
+        final_response[k] = (
+            translate_from_english(v, detected_lang)
+            if isinstance(v, str) else v
+        )
 
-    return translated_response
+    return final_response
