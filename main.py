@@ -1,5 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
 from agents.language_agent import detect_language
@@ -13,7 +14,7 @@ from agents.translation_agent import (
 )
 
 # -------------------------
-# REQUEST BODY MODEL
+# REQUEST MODEL
 # -------------------------
 class ChatRequest(BaseModel):
     user_input: str
@@ -24,21 +25,19 @@ class ChatRequest(BaseModel):
 # -------------------------
 # APP INIT
 # -------------------------
-app = FastAPI(
-    title="Global AI Law Chatbot",
-    description="AI-powered legal assistant",
-    version="1.0"
-)
+app = FastAPI(title="Global AI Law Chatbot")
 
 # -------------------------
-# CORS (FIXED)
+# CORS — FINAL FIX
 # -------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],     # OK now
-    allow_credentials=False, # 🔥 IMPORTANT FIX
+    allow_origins=[
+        "https://gmadhanavel2006-dev.github.io"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_credentials=False,
 )
 
 # -------------------------
@@ -46,34 +45,28 @@ app.add_middleware(
 # -------------------------
 intent_model = MLIntentClassifier()
 
-
-# -------------------------
-# STARTUP
-# -------------------------
 @app.on_event("startup")
-def startup_event():
-    print("🔹 Training ML intent model...")
+def startup():
     intent_model.train()
-    print("✅ ML model ready.")
 
 
 # -------------------------
-# HEALTH CHECK
+# ROOT
 # -------------------------
 @app.get("/")
 def home():
     return {
         "status": "running",
         "message": "AI Law Chatbot Backend is Live",
-        "docs": "/docs"
+        "chat_endpoint": "/chat"
     }
 
 
 # -------------------------
-# CHAT API (JSON BODY)
+# CHAT ENDPOINT
 # -------------------------
 @app.post("/chat")
-def chat(request: ChatRequest):
+async def chat(request: ChatRequest):
     user_input = request.user_input
     country = request.country.lower()
     user_role = request.user_role.lower()
@@ -82,18 +75,12 @@ def chat(request: ChatRequest):
     processed_input = translate_to_english(user_input, detected_lang)
 
     intent = intent_model.predict(processed_input)
-
     if intent == "unknown":
-        return {
-            "message": "Unable to identify the legal issue. Please provide more details."
-        }
+        return {"message": "Unable to identify the legal issue."}
 
     laws, meta = load_latest_law_data(country)
-
     if intent not in laws:
-        return {
-            "message": "Law information not available for this issue."
-        }
+        return {"message": "Law data not found for this issue."}
 
     law_info = laws[intent]
     reasoning = legal_reasoning(intent, processed_input, law_info)
@@ -105,18 +92,14 @@ def chat(request: ChatRequest):
         user_role=user_role
     )
 
-    response.update({
-        "legal_reasoning": reasoning,
-        "country": country,
-        "user_role": user_role,
-        "language_detected": detected_lang
-    })
+    response["legal_reasoning"] = reasoning
+    response["language_detected"] = detected_lang
 
-    final_response = {}
+    final = {}
     for k, v in response.items():
-        final_response[k] = (
+        final[k] = (
             translate_from_english(v, detected_lang)
             if isinstance(v, str) else v
         )
 
-    return final_response
+    return JSONResponse(content=final)
