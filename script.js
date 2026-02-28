@@ -1,33 +1,43 @@
-const API_URL = "https://YOUR_RENDER_URL/chat";
+const API_URL = "https://law-chatbot-fast.onrender.com/chat";
 
-async function sendQuery() {
-    const input = document.getElementById("userInput").value;
-    const country = document.getElementById("country").value;
-    const role = document.getElementById("role").value;
-    const result = document.getElementById("result");
+async function getLegalGuidance() {
+  const issue = document.getElementById("issue").value.trim();
+  const country = document.getElementById("country").value;
+  const role = document.getElementById("role").value;
+  const resultBox = document.getElementById("result");
 
-    if (!input.trim()) {
-        result.innerText = "⚠️ Please describe your legal issue.";
-        return;
+  if (!issue) {
+    resultBox.innerHTML = "❌ Please describe your legal issue.";
+    return;
+  }
+
+  resultBox.innerHTML = "⏳ Connecting to legal server...";
+
+  try {
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        user_input: issue,
+        country: country,
+        user_role: role
+      })
+    });
+
+    const data = await response.json();
+
+    let html = "<h3>⚖️ Legal Guidance</h3><ul>";
+    for (const key in data) {
+      html += `<li><b>${key.replace(/_/g, " ")}:</b> ${data[key]}</li>`;
     }
+    html += "</ul>";
 
-    result.innerText = "⏳ Analyzing with Royal Legal Intelligence...";
+    resultBox.innerHTML = html;
 
-    try {
-        const response = await fetch(API_URL, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                user_input: input,
-                country: country,
-                user_role: role
-            })
-        });
-
-        const data = await response.json();
-        result.innerText = JSON.stringify(data, null, 2);
-
-    } catch {
-        result.innerText = "❌ Unable to connect to the legal server.";
-    }
+  } catch (err) {
+    console.error(err);
+    resultBox.innerHTML = "❌ Unable to connect to the legal server.";
+  }
 }
