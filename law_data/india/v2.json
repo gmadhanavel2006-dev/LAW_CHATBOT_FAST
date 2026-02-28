@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "country": "india",
+    "version": "v2",
+    "year": 2024,
+    "last_updated": "2024-06-01"
+  },
+  "laws": {
+    "theft": {
+      "law_name": "Indian Penal Code",
+      "section": "Section 378",
+      "severity": "Cognizable offence",
+      "conditions": [
+        "Movable property",
+        "Dishonest intention",
+        "Without consent"
+      ],
+      "explanation": "Theft means dishonestly taking movable property out of the possession of any person without that person's consent.",
+      "punishment": "Imprisonment up to 3 years or fine or both.",
+      "legal_flow": [
+        "FIR Registration",
+        "Police Investigation",
+        "Charge Sheet",
+        "Court Trial",
+        "Judgment"
+      ]
+    },
+    "fraud": {
+      "law_name": "Indian Penal Code",
+      "section": "Section 420",
+      "severity": "Cognizable offence",
+      "conditions": [
+        "Deception",
+        "Dishonest inducement",
+        "Delivery of property"
+      ],
+      "explanation": "Cheating and dishonestly inducing delivery of property.",
+      "punishment": "Imprisonment up to 7 years and fine.",
+      "legal_flow": [
+        "Complaint Filing",
+        "Investigation",
+        "Charge Sheet",
+        "Court Trial"
+      ]
+    }
+  }
+}

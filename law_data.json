@@ -1,0 +1,25 @@
+{
+  "theft": {
+    "law": "Indian Penal Code",
+    "section": "Section 378",
+    "explanation": "Theft means dishonestly taking movable property without consent.",
+    "punishment": "Imprisonment up to 3 years or fine or both.",
+    "next_steps": [
+      "Go to nearest police station",
+      "File FIR",
+      "Collect evidence",
+      "Consult a lawyer"
+    ]
+  },
+  "fraud": {
+    "law": "Indian Penal Code",
+    "section": "Section 420",
+    "explanation": "Cheating and dishonestly inducing delivery of property.",
+    "punishment": "Imprisonment up to 7 years and fine.",
+    "next_steps": [
+      "File police complaint",
+      "Preserve transaction proofs",
+      "Approach cyber crime cell"
+    ]
+  }
+}
