@@ -13,7 +13,7 @@ from agents.translation_agent import (
 )
 
 # -------------------------
-# REQUEST MODEL (IMPORTANT)
+# REQUEST BODY MODEL
 # -------------------------
 class ChatRequest(BaseModel):
     user_input: str
@@ -22,21 +22,21 @@ class ChatRequest(BaseModel):
 
 
 # -------------------------
-# APP INITIALIZATION
+# APP INIT
 # -------------------------
 app = FastAPI(
     title="Global AI Law Chatbot",
-    description="AI-powered legal assistant for global users",
+    description="AI-powered legal assistant",
     version="1.0"
 )
 
 # -------------------------
-# CORS CONFIGURATION
+# CORS (FIXED)
 # -------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=["*"],     # OK now
+    allow_credentials=False, # 🔥 IMPORTANT FIX
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -52,21 +52,20 @@ intent_model = MLIntentClassifier()
 # -------------------------
 @app.on_event("startup")
 def startup_event():
-    print("🔹 Initializing ML intent model...")
+    print("🔹 Training ML intent model...")
     intent_model.train()
-    print("✅ ML intent model ready.")
+    print("✅ ML model ready.")
 
 
 # -------------------------
-# HOME
+# HEALTH CHECK
 # -------------------------
 @app.get("/")
 def home():
     return {
         "status": "running",
         "message": "AI Law Chatbot Backend is Live",
-        "docs_url": "/docs",
-        "chat_endpoint": "/chat"
+        "docs": "/docs"
     }
 
 
@@ -79,13 +78,9 @@ def chat(request: ChatRequest):
     country = request.country.lower()
     user_role = request.user_role.lower()
 
-    # 1️⃣ Detect language
     detected_lang = detect_language(user_input)
-
-    # 2️⃣ Translate to English
     processed_input = translate_to_english(user_input, detected_lang)
 
-    # 3️⃣ Predict intent
     intent = intent_model.predict(processed_input)
 
     if intent == "unknown":
@@ -93,7 +88,6 @@ def chat(request: ChatRequest):
             "message": "Unable to identify the legal issue. Please provide more details."
         }
 
-    # 4️⃣ Load law data
     laws, meta = load_latest_law_data(country)
 
     if intent not in laws:
@@ -102,11 +96,8 @@ def chat(request: ChatRequest):
         }
 
     law_info = laws[intent]
-
-    # 5️⃣ Reasoning
     reasoning = legal_reasoning(intent, processed_input, law_info)
 
-    # 6️⃣ Response
     response = build_response(
         intent=intent,
         law_info=law_info,
@@ -121,7 +112,6 @@ def chat(request: ChatRequest):
         "language_detected": detected_lang
     })
 
-    # 7️⃣ Translate back
     final_response = {}
     for k, v in response.items():
         final_response[k] = (
