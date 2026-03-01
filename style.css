@@ -1,105 +1,72 @@
 body {
-    margin: 0;
-    font-family: "Segoe UI", serif;
-    background: linear-gradient(135deg, #0a1a2f, #122b45);
-    color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0b1c2d, #1e3c72);
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-    text-align: center;
-    padding: 30px 20px;
-    background: #08121f;
-    border-bottom: 3px solid #d4af37;
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 28px;
-    color: #d4af37;
-}
-
-.header p {
-    margin-top: 5px;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.card {
-    max-width: 700px;
-    margin: 30px auto;
-    background: #ffffff;
-    color: #000;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+h1 {
+  text-align: center;
+  color: #c9a227;
+  margin-bottom: 30px;
 }
 
 label {
-    font-weight: 600;
-    margin-top: 15px;
-    display: block;
-    color: #08121f;
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
 }
 
-textarea {
-    width: 100%;
-    min-height: 120px;
-    padding: 12px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    resize: vertical;
-}
-
-.row {
-    display: flex;
-    gap: 15px;
-    margin-top: 15px;
-}
-
-.row div {
-    flex: 1;
-}
-
+textarea,
 select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
 }
 
 button {
-    width: 100%;
-    margin-top: 25px;
-    padding: 14px;
-    background: linear-gradient(135deg, #d4af37, #b8962e);
-    color: #08121f;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    letter-spacing: 1px;
+  margin-top: 25px;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(90deg, #c9a227, #f5d76e);
+  border: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-    background: linear-gradient(135deg, #e6c75a, #c9a63a);
+  background: linear-gradient(90deg, #f5d76e, #c9a227);
 }
 
-.result-box {
-    margin-top: 25px;
-    padding: 18px;
-    background: #f8f8f8;
-    border-left: 5px solid #d4af37;
-    border-radius: 6px;
-    white-space: pre-wrap;
-    font-size: 14px;
+.card {
+  background: #f9f9f9;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 6px solid #c9a227;
 }
 
-.footer {
-    text-align: center;
-    padding: 15px;
-    font-size: 12px;
-    color: #ccc;
+.card h3 {
+  color: #1e3c72;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
 }
