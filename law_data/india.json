@@ -1,0 +1,61 @@
+{
+  "theft": {
+    "law_section": "IPC Section 379",
+    "offence": "Theft",
+    "punishment": "Imprisonment up to 3 years, or fine, or both",
+    "explanation": "Theft is the dishonest taking of movable property out of someone's possession without their consent.",
+    "next_steps": [
+      "File an FIR at the nearest police station",
+      "Provide IMEI number if a mobile phone is stolen",
+      "Collect acknowledgement copy of FIR"
+    ]
+  },
+
+  "fraud": {
+    "law_section": "IPC Section 420",
+    "offence": "Cheating and dishonestly inducing delivery of property",
+    "punishment": "Imprisonment up to 7 years and fine",
+    "explanation": "Fraud involves deceiving a person to gain unlawful advantage.",
+    "next_steps": [
+      "Collect transaction proof",
+      "File cyber crime complaint",
+      "Report to local police"
+    ]
+  },
+
+  "cyber_crime": {
+    "law_section": "IT Act Section 66",
+    "offence": "Computer related offence",
+    "punishment": "Imprisonment up to 3 years or fine",
+    "explanation": "Covers unauthorized access, hacking, and misuse of digital systems.",
+    "next_steps": [
+      "Report to cyber crime portal",
+      "Secure your accounts",
+      "Preserve digital evidence"
+    ]
+  },
+
+  "domestic_violence": {
+    "law_section": "Protection of Women from Domestic Violence Act, 2005",
+    "offence": "Domestic Violence",
+    "punishment": "Protection orders, fines, or imprisonment",
+    "explanation": "Protects women from physical, emotional, and economic abuse.",
+    "next_steps": [
+      "Contact local police",
+      "Approach protection officer",
+      "Seek legal aid"
+    ]
+  },
+
+  "accident": {
+    "law_section": "Motor Vehicles Act, 1988",
+    "offence": "Road Traffic Accident",
+    "punishment": "Fine or imprisonment depending on severity",
+    "explanation": "Governs liability and compensation for road accidents.",
+    "next_steps": [
+      "Inform police",
+      "Seek medical attention",
+      "File insurance claim"
+    ]
+  }
+}
