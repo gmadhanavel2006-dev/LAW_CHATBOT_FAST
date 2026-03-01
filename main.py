@@ -18,7 +18,7 @@ class ChatRequest(BaseModel):
 
 app = FastAPI(title="AI Law Chatbot")
 
-# 🔴 IMPORTANT: exact GitHub Pages origin
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://gmadhanavel2006-dev.github.io"],
@@ -30,7 +30,11 @@ intent_model = MLIntentClassifier()
 
 @app.on_event("startup")
 def startup():
-    intent_model.train()
+    try:
+        intent_model.train()
+        print("ML model trained")
+    except Exception as e:
+        print("ML training skipped:", e)
 
 
 @app.get("/")
@@ -38,16 +42,36 @@ def home():
     return {"status": "running"}
 
 
+# 🔥 RULE-BASED FALLBACK
+def fallback_intent(text: str) -> str:
+    text = text.lower()
+    if "stolen" in text or "theft" in text:
+        return "theft"
+    if "cheat" in text or "fraud" in text:
+        return "fraud"
+    if "assault" in text or "hit" in text:
+        return "assault"
+    return "unknown"
+
+
 @app.post("/chat")
 def chat(req: ChatRequest):
     detected_lang = detect_language(req.user_input)
     text_en = translate_to_english(req.user_input, detected_lang)
 
-    intent = intent_model.predict(text_en)
+    # 🔒 SAFE INTENT DETECTION
+    try:
+        intent = intent_model.predict(text_en)
+    except Exception:
+        intent = fallback_intent(text_en)
+
+    if intent == "unknown":
+        return {"message": "Unable to identify the legal issue."}
+
     laws, meta = load_latest_law_data(req.country.lower())
 
     if intent not in laws:
-        return {"message": "Law not found for this issue."}
+        return {"message": "Law data not found for this issue."}
 
     law_info = laws[intent]
     reasoning = legal_reasoning(intent, text_en, law_info)
