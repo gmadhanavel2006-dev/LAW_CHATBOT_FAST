@@ -5,6 +5,16 @@ import json
 import os
 
 # ===============================
+# OPTIONAL GEMINI AI IMPORT
+# ===============================
+try:
+    from agents.gemini_intent_agent import extract_intent
+    GEMINI_ENABLED = True
+except Exception:
+    GEMINI_ENABLED = False
+
+
+# ===============================
 # FASTAPI APP
 # ===============================
 app = FastAPI(
@@ -14,7 +24,7 @@ app = FastAPI(
 )
 
 # ===============================
-# CORS (Web + Android safe)
+# CORS (Web + Android Safe)
 # ===============================
 app.add_middleware(
     CORSMiddleware,
@@ -34,23 +44,20 @@ class ChatRequest(BaseModel):
 
 
 # ===============================
-# COUNTRY NORMALIZATION (KEY FIX)
+# COUNTRY NORMALIZATION
 # ===============================
 def normalize_country(country: str):
     country = country.strip().lower()
 
     country_map = {
-        # India
         "india": "india",
         "bharat": "india",
 
-        # USA
         "usa": "usa",
         "us": "usa",
         "united states": "usa",
         "united states of america": "usa",
 
-        # UK
         "uk": "uk",
         "united kingdom": "uk",
         "england": "uk",
@@ -61,7 +68,7 @@ def normalize_country(country: str):
 
 
 # ===============================
-# FALLBACK INTENT (STABLE)
+# FALLBACK INTENT (NO CRASH)
 # ===============================
 def fallback_intent(text: str):
     text = text.lower()
@@ -87,7 +94,8 @@ def fallback_intent(text: str):
 def home():
     return {
         "status": "running",
-        "message": "AI Law Chatbot Backend is live"
+        "message": "AI Law Chatbot Backend is live",
+        "gemini_enabled": GEMINI_ENABLED
     }
 
 
@@ -104,10 +112,19 @@ def chat(request: ChatRequest):
         if not user_text:
             return {"error": "User input is empty"}
 
-        # -------- INTENT --------
-        intent = fallback_intent(user_text)
+        # -------- INTENT DETECTION --------
+        intent = None
 
-        # -------- LOAD LAW DATA (ABSOLUTE PATH FIX) --------
+        if GEMINI_ENABLED:
+            try:
+                intent = extract_intent(user_text)
+            except Exception:
+                intent = None
+
+        if not intent:
+            intent = fallback_intent(user_text)
+
+        # -------- LOAD LAW DATA (ABSOLUTE PATH) --------
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
         law_path = os.path.join(BASE_DIR, "law_data", f"{country}.json")
 
@@ -125,11 +142,11 @@ def chat(request: ChatRequest):
 
         if not law:
             return {
-                "error": "No matching law found for detected intent",
+                "error": "No matching law found",
                 "detected_intent": intent
             }
 
-        # -------- RESPONSE --------
+        # -------- FINAL RESPONSE --------
         return {
             "issue": user_text,
             "country": country,
@@ -140,7 +157,7 @@ def chat(request: ChatRequest):
             "punishment": law.get("punishment"),
             "explanation": law.get("explanation"),
             "next_steps": law.get("next_steps"),
-            "note": "Global AI legal guidance system with safe fallback"
+            "note": "AI-powered legal guidance using Gemini with safe fallback"
         }
 
     except Exception as e:
