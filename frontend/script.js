@@ -1,45 +1,37 @@
-const BACKEND_URL = "https://YOUR_RENDER_URL.onrender.com";
+const BACKEND_URL = "https://global-ai-legal-assistant.onrender.com";
 
-function addBubble(text, sender) {
-  const chat = document.getElementById("chat");
-  const bubble = document.createElement("div");
-  bubble.className = `bubble ${sender}`;
-  bubble.innerText = text;
-  chat.appendChild(bubble);
-  chat.scrollTop = chat.scrollHeight;
-}
+async function getLegalGuidance() {
+  const message = document.getElementById("message").value.trim();
+  const country = document.getElementById("country").value;
+  const role = document.getElementById("role").value;
+  const output = document.getElementById("output");
 
-async function sendMessage() {
-  const textarea = document.getElementById("message");
-  const message = textarea.value.trim();
+  if (!message) {
+    output.innerHTML = "<b>Please enter a legal issue.</b>";
+    return;
+  }
 
-  if (!message) return;
+  output.innerHTML = "⏳ Waking up server… please wait (first request may take 30s)";
 
-  addBubble(message, "user");
-  textarea.value = "";
-
-  addBubble("Thinking...", "bot");
+  const controller = new AbortController();
+  setTimeout(() => controller.abort(), 45000); // 45s timeout
 
   try {
     const res = await fetch(`${BACKEND_URL}/chat`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      signal: controller.signal,
       body: JSON.stringify({
         message: message,
-        country: "india",
-        role: "citizen"
+        country: country,
+        role: role
       })
     });
 
     const data = await res.json();
-
-    // Remove "Thinking..."
-    const chat = document.getElementById("chat");
-    chat.removeChild(chat.lastChild);
-
-    addBubble(data.response, "bot");
-
-  } catch {
-    addBubble("Backend not reachable. Please try again.", "bot");
+    output.innerHTML = `<pre>${data.response}</pre>`;
+  } catch (err) {
+    output.innerHTML =
+      "⚠️ Server is waking up or temporarily unavailable. Please try again in 30 seconds.";
   }
 }
