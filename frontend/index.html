@@ -1,92 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Global AI Legal Assistant</title>
+  <meta charset="UTF-8" />
+  <title>👑 Royal AI Law Chatbot</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0f2f5;
+      background: #f4f6f9;
       display: flex;
       justify-content: center;
-      margin-top: 30px;
+      padding: 30px;
     }
 
-    .chat-container {
-      width: 420px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-      display: flex;
-      flex-direction: column;
-      height: 600px;
+    .container {
+      width: 650px;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     }
 
-    .header {
-      padding: 15px;
-      background: #007bff;
-      color: white;
+    h1 {
       text-align: center;
+      color: #d4a017;
+      margin-bottom: 25px;
+    }
+
+    label {
       font-weight: bold;
+      margin-top: 15px;
+      display: block;
     }
 
-    .chat-body {
-      flex: 1;
+    textarea,
+    select {
+      width: 100%;
       padding: 10px;
-      overflow-y: auto;
-    }
-
-    .bubble {
-      max-width: 80%;
-      padding: 10px;
-      margin: 5px 0;
-      border-radius: 10px;
-      white-space: pre-wrap;
-    }
-
-    .user {
-      background: #dcf8c6;
-      align-self: flex-end;
-    }
-
-    .bot {
-      background: #f1f0f0;
-      align-self: flex-start;
-    }
-
-    .input-area {
-      display: flex;
-      padding: 10px;
-      border-top: 1px solid #ddd;
+      margin-top: 6px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
     }
 
     textarea {
-      flex: 1;
-      resize: none;
-      padding: 8px;
+      resize: vertical;
     }
 
     button {
-      padding: 8px 15px;
-      margin-left: 5px;
-      background: #007bff;
-      color: white;
+      width: 100%;
+      margin-top: 25px;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      background: linear-gradient(to right, #f7d774, #d4a017);
       border: none;
+      border-radius: 8px;
       cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .output {
+      margin-top: 30px;
+      background: #f9fafb;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .output h3 {
+      margin-top: 0;
     }
   </style>
 </head>
 
 <body>
-  <div class="chat-container">
-    <div class="header">⚖️ Global AI Legal Assistant</div>
-    <div class="chat-body" id="chat"></div>
+  <div class="container">
+    <h1>👑 Royal AI Law Chatbot</h1>
 
-    <div class="input-area">
-      <textarea id="message" rows="2" placeholder="Type your legal issue..."></textarea>
-      <button onclick="sendMessage()">Send</button>
+    <!-- LEGAL ISSUE INPUT -->
+    <label for="message">📝 Describe Your Legal Issue</label>
+    <textarea
+      id="message"
+      rows="4"
+      placeholder="Example: Someone is threatening me online"
+    ></textarea>
+
+    <!-- COUNTRY -->
+    <label for="country">🌍 Country</label>
+    <select id="country">
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+    </select>
+
+    <!-- USER ROLE -->
+    <label for="role">👤 User Role</label>
+    <select id="role">
+      <option value="citizen">Citizen</option>
+      <option value="lawyer">Lawyer</option>
+    </select>
+
+    <!-- SUBMIT BUTTON -->
+    <button onclick="getLegalGuidance()">Get Legal Guidance</button>
+
+    <!-- OUTPUT -->
+    <div class="output" id="output">
+      <h3>⚖️ Legal Guidance</h3>
+      <p>Response will appear here...</p>
     </div>
   </div>
 
+  <!-- SCRIPT -->
   <script src="script.js"></script>
 </body>
 </html>
