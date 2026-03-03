@@ -4,19 +4,21 @@ from pydantic import BaseModel
 from typing import Optional
 import traceback
 
+# ===== Agent imports =====
 from agents.translation_agent import (
     detect_language,
     translate_to_english,
     translate_from_english,
 )
-from agents.gemini_intent_agent import infer_legal_issue_with_ai
+from agents.ml_intent_agent import infer_legal_issue_with_ai
 from agents.law_agent import load_law_data, match_relevant_laws
 from agents.reasoning_agent import build_legal_reasoning
 from agents.response_agent import generate_conversational_response
 
-# =========================
-# FASTAPI INITIALIZATION
-# =========================
+
+# ======================================================
+# FASTAPI APP (⚠️ MUST BE TOP-LEVEL – NOT INSIDE ANY FUNC)
+# ======================================================
 
 app = FastAPI(
     title="Global AI Legal Assistant",
@@ -24,6 +26,9 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# =================
+# CORS CONFIG
+# =================
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -32,9 +37,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# =========================
-# REQUEST / RESPONSE MODELS
-# =========================
+# =================
+# DATA MODELS
+# =================
 
 class ChatRequest(BaseModel):
     message: Optional[str] = ""
@@ -52,9 +57,9 @@ class ChatResponse(BaseModel):
     error: Optional[str] = None
 
 
-# =========================
+# =================
 # CHAT ENDPOINT
-# =========================
+# =================
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(payload: ChatRequest):
@@ -77,24 +82,24 @@ def chat(payload: ChatRequest):
         # ---- LANGUAGE DETECTION ----
         detected_lang = detect_language(user_message)
 
-        # ---- TRANSLATION TO ENGLISH ----
+        # ---- TRANSLATE TO ENGLISH ----
         if detected_lang != "en":
             english_text = translate_to_english(user_message, detected_lang)
         else:
             english_text = user_message
 
-        # ---- AI ISSUE UNDERSTANDING ----
+        # ---- AI INTENT UNDERSTANDING ----
         try:
             issue_intent = infer_legal_issue_with_ai(english_text)
             if not issue_intent:
-                raise ValueError("Empty AI intent")
+                raise ValueError("Empty intent")
         except Exception:
             issue_intent = "general legal issue requiring legal review"
 
         # ---- LOAD LAWS (NO HARDCODING) ----
         law_data = load_law_data(country)
 
-        # ---- MATCH RELEVANT LAWS SAFELY ----
+        # ---- MATCH LAWS SAFELY ----
         matched_laws = match_relevant_laws(issue_intent, law_data)
 
         # ---- LEGAL REASONING ----
@@ -121,7 +126,6 @@ def chat(payload: ChatRequest):
         else:
             final_response = english_response
 
-        # ---- SAFE OUTPUT ----
         return ChatResponse(
             success=True,
             detected_language=detected_lang,
@@ -151,9 +155,9 @@ def chat(payload: ChatRequest):
         )
 
 
-# =========================
+# =================
 # HEALTH CHECK
-# =========================
+# =================
 
 @app.get("/")
 def health():
@@ -162,3 +166,11 @@ def health():
         "service": "Global AI Legal Assistant",
         "mode": "production-safe",
     }
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
+    )

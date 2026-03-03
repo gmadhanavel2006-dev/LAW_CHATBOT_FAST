@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Global AI Legal Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .chat-container {
+      width: 420px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+    }
+
+    .header {
+      padding: 15px;
+      background: #007bff;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .chat-body {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+    }
+
+    .bubble {
+      max-width: 80%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 10px;
+      white-space: pre-wrap;
+    }
+
+    .user {
+      background: #dcf8c6;
+      align-self: flex-end;
+    }
+
+    .bot {
+      background: #f1f0f0;
+      align-self: flex-start;
+    }
+
+    .input-area {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+    }
+
+    textarea {
+      flex: 1;
+      resize: none;
+      padding: 8px;
+    }
+
+    button {
+      padding: 8px 15px;
+      margin-left: 5px;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="header">⚖️ Global AI Legal Assistant</div>
+    <div class="chat-body" id="chat"></div>
+
+    <div class="input-area">
+      <textarea id="message" rows="2" placeholder="Type your legal issue..."></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

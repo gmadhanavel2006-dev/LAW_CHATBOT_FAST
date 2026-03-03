@@ -1,61 +1,10 @@
-{
-  "theft": {
-    "law_section": "State Penal Code / Larceny Laws",
-    "offence": "Theft (Larceny)",
-    "punishment": "Fines or imprisonment depending on value of property",
-    "explanation": "Taking someone else's property without consent with intent to permanently deprive.",
-    "next_steps": [
-      "Report to local police department",
-      "Provide proof of ownership",
-      "Obtain police report number"
-    ]
-  },
-
-  "fraud": {
-    "law_section": "18 U.S. Code § 1343",
-    "offence": "Wire Fraud",
-    "punishment": "Up to 20 years imprisonment and fines",
-    "explanation": "Fraud involving electronic communications or internet.",
-    "next_steps": [
-      "Preserve transaction records",
-      "Report to FTC",
-      "File police complaint"
-    ]
-  },
-
-  "domestic_violence": {
-    "law_section": "Violence Against Women Act (VAWA)",
-    "offence": "Domestic Violence",
-    "punishment": "Restraining orders, imprisonment, fines",
-    "explanation": "Protects individuals from abuse by intimate partners.",
-    "next_steps": [
-      "Call emergency services if needed",
-      "Seek protection order",
-      "Contact local support organizations"
-    ]
-  },
-
-  "cyber_crime": {
-    "law_section": "Computer Fraud and Abuse Act (CFAA)",
-    "offence": "Cyber Crime",
-    "punishment": "Fines and imprisonment",
-    "explanation": "Unauthorized access to computer systems or data.",
-    "next_steps": [
-      "Report to FBI Internet Crime Complaint Center (IC3)",
-      "Preserve digital evidence",
-      "Change compromised credentials"
-    ]
-  },
-
-  "accident": {
-    "law_section": "State Motor Vehicle Laws",
-    "offence": "Road Traffic Accident",
-    "punishment": "Civil liability or criminal charges depending on severity",
-    "explanation": "Governs compensation and liability for road accidents.",
-    "next_steps": [
-      "Call emergency services",
-      "Exchange insurance details",
-      "File police report"
-    ]
+[
+  {
+    "issue_keywords": ["online threat"],
+    "offence_name": "Cyber Threats",
+    "law_section": "18 U.S. Code § 875",
+    "explanation": "Interstate communication of threats using electronic means.",
+    "punishment": "Fines or imprisonment",
+    "next_steps": "Report to law enforcement and preserve evidence"
   }
-}
+]
