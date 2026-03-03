@@ -1,121 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>👑 Royal AI Law Chatbot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Kingdom of Law – AI Court</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f9;
-      display: flex;
-      justify-content: center;
-      padding: 30px;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
-    .container {
-      width: 650px;
-      background: #ffffff;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    }
+<style>
+:root {
+  --dark: #050b12;
+  --royal: #0c1f33;
+  --gold: #c9a24d;
+  --gold-light: #e6c77b;
+  --paper: #f5f1e8;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-    h1 {
-      text-align: center;
-      color: #d4a017;
-      margin-bottom: 25px;
-    }
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1b3553, #050b12 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: var(--paper);
+}
 
-    label {
-      font-weight: bold;
-      margin-top: 15px;
-      display: block;
-    }
+.chatbot {
+  width: 430px;
+  background: linear-gradient(180deg, #0f2740, #071320);
+  border: 3px solid var(--gold);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(201,162,77,0.35);
+  overflow: hidden;
+}
 
-    textarea,
-    select {
-      width: 100%;
-      padding: 10px;
-      margin-top: 6px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      font-size: 14px;
-    }
+.header {
+  background: linear-gradient(180deg, #1a3a5c, #0c1f33);
+  padding: 18px;
+  text-align: center;
+  border-bottom: 2px solid var(--gold);
+  font-family: 'Cinzel', serif;
+}
+.header h1 { font-size: 1.4rem; color: var(--gold-light); }
+.header p { font-size: 0.75rem; color: #d2c08f; }
 
-    textarea {
-      resize: vertical;
-    }
+.chat {
+  height: 420px;
+  padding: 16px;
+  overflow-y: auto;
+  background: rgba(0,0,0,0.25);
+}
 
-    button {
-      width: 100%;
-      margin-top: 25px;
-      padding: 14px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #000;
-      background: linear-gradient(to right, #f7d774, #d4a017);
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
+.msg {
+  max-width: 85%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-radius: 14px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
 
-    button:hover {
-      opacity: 0.9;
-    }
+.bot {
+  background: linear-gradient(135deg, #1f3d5c, #12263b);
+  border-left: 3px solid var(--gold);
+}
 
-    .output {
-      margin-top: 30px;
-      background: #f9fafb;
-      padding: 15px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
-    }
+.user {
+  background: linear-gradient(135deg, #d6b15c, #a88232);
+  color: #1b1b1b;
+  margin-left: auto;
+  border-right: 3px solid #fff1c2;
+}
 
-    .output h3 {
-      margin-top: 0;
-    }
-  </style>
+.input-box {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: #050b12;
+  border-top: 2px solid var(--gold);
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  background: #0f2135;
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  color: var(--paper);
+}
+
+.input-box button {
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #e6c77b, #b8943f);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.6rem;
+  padding: 6px;
+  font-family: 'Cinzel', serif;
+  color: #bfae7c;
+  background: #04080d;
+}
+</style>
 </head>
 
 <body>
-  <div class="container">
-    <h1>👑 Royal AI Law Chatbot</h1>
 
-    <!-- LEGAL ISSUE INPUT -->
-    <label for="message">📝 Describe Your Legal Issue</label>
-    <textarea
-      id="message"
-      rows="4"
-      placeholder="Example: Someone is threatening me online"
-    ></textarea>
+<div class="chatbot">
+  <div class="header">
+    <h1>👑 THE KINGDOM OF LAW</h1>
+    <p>An AI Court for the People</p>
+  </div>
 
-    <!-- COUNTRY -->
-    <label for="country">🌍 Country</label>
-    <select id="country">
-      <option value="india">India</option>
-      <option value="usa">USA</option>
-      <option value="uk">UK</option>
-    </select>
-
-    <!-- USER ROLE -->
-    <label for="role">👤 User Role</label>
-    <select id="role">
-      <option value="citizen">Citizen</option>
-      <option value="lawyer">Lawyer</option>
-    </select>
-
-    <!-- SUBMIT BUTTON -->
-    <button onclick="getLegalGuidance()">Get Legal Guidance</button>
-
-    <!-- OUTPUT -->
-    <div class="output" id="output">
-      <h3>⚖️ Legal Guidance</h3>
-      <p>Response will appear here...</p>
+  <div class="chat" id="chat">
+    <div class="msg bot">
+      Welcome to the Kingdom of Law. How may justice serve you today?
     </div>
   </div>
 
-  <!-- IMPORTANT: SCRIPT PATH FIXED FOR GITHUB PAGES -->
-  <script src="frontend/script.js"></script>
+  <div class="input-box">
+    <input id="userInput" type="text" placeholder="Present your legal query…" />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <div class="footer">Veritas • Lex • Justitia</div>
+</div>
+
+<script>
+/* 🔥 RENDER BACKEND URL (DEPLOYED) */
+const BACKEND_URL = "https://global-ai-legal-assistant.onrender.com/chat";
+
+async function sendMessage() {
+  const input = document.getElementById("userInput");
+  const chat = document.getElementById("chat");
+  const message = input.value.trim();
+
+  if (!message) return;
+
+  chat.innerHTML += `<div class="msg user">${message}</div>`;
+  input.value = "";
+  chat.scrollTop = chat.scrollHeight;
+
+  const typing = document.createElement("div");
+  typing.className = "msg bot";
+  typing.innerText = "⚖ The Court AI is deliberating…";
+  chat.appendChild(typing);
+  chat.scrollTop = chat.scrollHeight;
+
+  try {
+    const res = await fetch(BACKEND_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        message: message,
+        country: "india",
+        role: "citizen"
+      })
+    });
+
+    const data = await res.json();
+    chat.removeChild(typing);
+
+    chat.innerHTML += `<div class="msg bot">${data.response}</div>`;
+    chat.scrollTop = chat.scrollHeight;
+
+  } catch (err) {
+    chat.removeChild(typing);
+    chat.innerHTML += `<div class="msg bot">⚠ Court server is waking up. Please try again.</div>`;
+  }
+}
+</script>
+
 </body>
 </html>
