@@ -1,35 +1,88 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from agents.gemini_intent_agent import GeminiLegalReasoner
+from pydantic import BaseModel
+import json
+import os
 
-app = FastAPI()
+# ------------------------
+# FastAPI APP (REQUIRED)
+# ------------------------
+app = FastAPI(title="AI Law Chatbot")
 
+# ------------------------
+# CORS (for GitHub Pages)
+# ------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # later you can lock this
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-reasoner = GeminiLegalReasoner()
+# ------------------------
+# Request Model
+# ------------------------
+class ChatRequest(BaseModel):
+    user_input: str
+    country: str = "india"
+    user_role: str = "citizen"
 
+# ------------------------
+# Health Check (IMPORTANT)
+# ------------------------
+@app.get("/")
+def home():
+    return {"status": "OK", "message": "AI Law Chatbot running"}
+
+# ------------------------
+# Load Law Data
+# ------------------------
+def load_laws(country: str):
+    path = f"law_data/{country.lower()}.json"
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# ------------------------
+# Simple Intent Mapping (TEMP)
+# ------------------------
+def basic_intent_detect(text: str):
+    t = text.lower()
+    if "blackmail" in t:
+        return "blackmail"
+    if "stolen" in t or "theft" in t:
+        return "theft"
+    if "harass" in t:
+        return "harassment"
+    return "unknown"
+
+# ------------------------
+# Chat Endpoint
+# ------------------------
 @app.post("/chat")
-async def chat(request: Request):
-    data = await request.json()
+def chat(req: ChatRequest):
+    laws = load_laws(req.country)
+    intent = basic_intent_detect(req.user_input)
 
-    user_input = data.get("user_input", "")
-    country = data.get("country", "india")
-    user_role = data.get("user_role", "citizen")
-
-    analysis = reasoner.analyze(user_input, country)
+    for law in laws:
+        if law.get("intent") == intent:
+            return {
+                "issue": req.user_input,
+                "country": req.country,
+                "user_role": req.user_role,
+                "detected_intent": intent,
+                "law_section": law.get("section"),
+                "offence": law.get("offence"),
+                "punishment": law.get("punishment"),
+                "explanation": law.get("explanation"),
+                "next_steps": law.get("next_steps"),
+                "note": "AI legal guidance (stable base)"
+            }
 
     return {
-        "issue": analysis["legal_issue"],
-        "country": country,
-        "user_role": user_role,
-        "offences_identified": analysis["offences"],
-        "applicable_laws": analysis["applicable_laws"],
-        "explanation": analysis["citizen_explanation"],
-        "next_steps": analysis["immediate_steps"],
-        "note": "AI-generated legal guidance. Not a substitute for a lawyer."
+        "issue": req.user_input,
+        "detected_intent": intent,
+        "message": "No matching law found. Please provide more details."
     }
