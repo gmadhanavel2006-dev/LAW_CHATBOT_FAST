@@ -1,0 +1,818 @@
+Murder|BNS Section 103|Death or Life Imprisonment|Intentionally causing the death of a person
+Attempt to Murder|BNS Section 109|Up to Life Imprisonment|Attempt made with intent to cause death
+Culpable Homicide|BNS Section 101|Up to Life Imprisonment|Causing death without full intent of murder
+Causing Death by Negligence|BNS Section 106|Up to 5 Years|Death caused due to rash or negligent act
+Voluntarily Causing Hurt|BNS Section 115|Up to 1 Year or Fine|Causing bodily pain intentionally
+Voluntarily Causing Grievous Hurt|BNS Section 117|Up to 7 Years|Causing serious bodily injury
+Acid Attack|BNS Section 124|Minimum 10 Years to Life|Causing injury using acid
+Attempt to Acid Attack|BNS Section 125|Up to 7 Years|Attempt to throw or administer acid
+Wrongful Restraint|BNS Section 127|Up to 1 Month|Preventing lawful movement of a person
+Wrongful Confinement|BNS Section 128|Up to 1 Year|Illegally confining a person
+Kidnapping|BNS Section 137|Up to 7 Years|Taking person away unlawfully
+Kidnapping for Ransom|BNS Section 140|Death or Life Imprisonment|Kidnapping to demand ransom
+Human Trafficking|BNS Section 143|Life Imprisonment|Exploitation and trafficking of persons
+Forced Labour|BNS Section 144|Up to 10 Years|Forcing a person to work illegally
+Sexual Harassment|BNS Section 75|Up to 3 Years|Unwelcome sexual conduct
+Assault to Disrobe Woman|BNS Section 76|Up to 7 Years|Forcing woman to disrobe
+Voyeurism|BNS Section 77|Up to 3 Years|Watching or recording private acts
+Stalking|BNS Section 78|Up to 3 Years|Repeated unwanted contact or following
+Rape|BNS Section 63|Minimum 10 Years to Life|Sexual intercourse without consent
+Gang Rape|BNS Section 70|Life Imprisonment|Rape committed by multiple persons
+Sexual Assault on Child|POCSO Act Section 4|Minimum 10 Years|Sexual assault involving a child
+Aggravated Child Sexual Assault|POCSO Act Section 6|Life Imprisonment|Severe sexual assault on child
+Child Pornography|POCSO Act Section 14|Up to 7 Years|Use of child for pornographic purposes
+Cruelty to Woman|BNS Section 85|Up to 3 Years|Harassment of woman by husband or relatives
+Dowry Death|BNS Section 80|7 Years to Life|Death of woman due to dowry harassment
+Dowry Demand|Dowry Prohibition Act Section 4|Up to 2 Years|Demanding dowry directly or indirectly
+Bigamy|BNS Section 82|Up to 7 Years|Marrying again during subsisting marriage
+Theft|BNS Section 303|Up to 3 Years|Dishonest taking of movable property
+Theft in Dwelling House|BNS Section 305|Up to 7 Years|Theft committed in a house
+Robbery|BNS Section 309|Up to 10 Years|Theft with violence or threat
+Dacoity|BNS Section 310|Life Imprisonment|Robbery by five or more persons
+Extortion|BNS Section 311|Up to 3 Years|Obtaining property through threats
+Cheating|BNS Section 316|Up to 7 Years|Dishonest inducement to deliver property
+Criminal Breach of Trust|BNS Section 314|Up to 5 Years|Misuse of entrusted property
+Forgery|BNS Section 335|Up to 2 Years|Making false documents
+Forgery of Valuable Security|BNS Section 336|Life Imprisonment|Forgery of important legal documents
+Using Forged Document|BNS Section 337|Same as Forgery|Using forged document knowingly
+Counterfeit Currency|BNS Section 339|Life Imprisonment|Making or circulating fake currency
+Criminal Intimidation|BNS Section 351|Up to 2 Years|Threatening to cause harm
+Criminal Conspiracy|BNS Section 61|As per offence|Agreement to commit illegal act
+Public Nuisance|BNS Section 292|Fine|Acts causing inconvenience to public
+Rioting|BNS Section 189|Up to 2 Years|Violence by unlawful assembly
+Unlawful Assembly|BNS Section 187|Up to 6 Months|Assembly with illegal common object
+Obstructing Public Servant|BNS Section 221|Up to 3 Months|Obstructing government duty
+Assault on Public Servant|BNS Section 222|Up to 2 Years|Using force against public servant
+Giving False Evidence|BNS Section 229|Up to 7 Years|Lying under oath
+False FIR Filing|BNS Section 230|Up to 7 Years|False criminal accusation
+Cyber Fraud|IT Act Section 66D|Up to 3 Years and Fine|Online cheating using computer resources
+Identity Theft|IT Act Section 66C|Up to 3 Years|Unauthorized use of identity
+Data Breach|IT Act Section 43A|Compensation and Fine|Failure to protect sensitive data
+Publishing Obscene Content|IT Act Section 67|Up to 5 Years|Publishing obscene material online
+Child Sexual Content Online|IT Act Section 67B|Up to 7 Years|Child sexual content on internet
+Cyber Terrorism|IT Act Section 66F|Life Imprisonment|Cyber acts threatening national security
+UPI Fraud|BNS Section 316|Up to 7 Years|Cheating using digital payments
+Online Job Scam|BNS Section 316|Up to 7 Years|Fake job offers to cheat victims
+Online Loan App Harassment|BNS Section 351|Up to 2 Years|Threats by illegal loan apps
+Money Laundering|PMLA Section 4|3 to 7 Years|Processing proceeds of crime
+GST Tax Evasion|CGST Act Section 132|Up to 5 Years|Intentional GST evasion
+Income Tax Evasion|IT Act Section 276C|Up to 7 Years|Willful tax evasion
+Benami Property Holding|Benami Act Section 53|Up to 7 Years|Property held in fake names
+Banking Fraud|BNS Section 314|Up to 10 Years|Fraud by banking officials
+ATM Skimming|BNS Section 316|Up to 7 Years|Stealing ATM card data
+Cheque Bounce|NI Act Section 138|Up to 2 Years or Fine|Dishonour of cheque
+Fake NGO Fundraising|BNS Section 316|Up to 7 Years|Fraud through fake charities
+Environmental Pollution|Environment Act Section 15|Up to 5 Years|Polluting air water or land
+Illegal Sand Mining|MMDR Act Section 21|Imprisonment and Fine|Mining without permission
+Wildlife Hunting|Wildlife Act Section 9|Up to 7 Years|Hunting protected animals
+Illegal Arms Possession|Arms Act Section 25|Up to 7 Years|Possession of arms without license
+Terrorist Act|UAPA Section 16|Life Imprisonment or Death|Acts threatening national security
+Funding Terrorism|UAPA Section 17|Life Imprisonment|Raising funds for terrorism
+Abetment of Suicide|BNS Section 108|Up to 10 Years|Instigating or aiding a person to commit suicide
+Abetment of Suicide of Minor|BNS Section 107|Death or Life Imprisonment|Abetment of suicide of a child or insane person
+Causing Hurt by Dangerous Weapons|BNS Section 116|Up to 3 Years|Hurt caused using weapons or dangerous means
+Grievous Hurt by Dangerous Weapons|BNS Section 118|Up to 10 Years|Serious injury using deadly weapons
+Wrongful Confinement for Three Days|BNS Section 129|Up to 2 Years|Illegal confinement beyond three days
+Wrongful Confinement for Ten Days|BNS Section 130|Up to 3 Years|Illegal confinement beyond ten days
+Kidnapping to Murder|BNS Section 141|Life Imprisonment|Kidnapping with intent to murder
+Kidnapping to Rob|BNS Section 142|Up to 10 Years|Kidnapping with intent to rob
+Buying Child for Exploitation|BNS Section 145|Up to 10 Years|Buying child for exploitation
+Selling Child for Exploitation|BNS Section 146|Up to 10 Years|Selling child for exploitation
+Trafficking of Multiple Persons|BNS Section 143|Life Imprisonment|Trafficking of more than one person
+Habitual Trafficking|BNS Section 143(2)|Life Imprisonment|Repeated trafficking offences
+Sexual Exploitation of Woman|BNS Section 69|Up to 10 Years|Sexual exploitation under false promise
+Sexual Assault by Authority|BNS Section 70|Life Imprisonment|Sexual assault by person in authority
+Voyeurism Repeat Offence|BNS Section 77|Up to 7 Years|Repeated voyeurism offence
+Stalking Repeat Offence|BNS Section 78|Up to 5 Years|Repeated stalking offence
+Criminal Force to Woman|BNS Section 74|Up to 5 Years|Using force to outrage modesty
+Dowry Cruelty|BNS Section 85|Up to 3 Years|Cruelty related to dowry demands
+Dowry Prohibition Violation|Dowry Prohibition Act Section 3|Up to 5 Years|Giving or taking dowry
+Marriage Fraud|BNS Section 316|Up to 7 Years|Cheating through fraudulent marriage
+Miscarriage Without Consent|BNS Section 89|Life Imprisonment|Causing miscarriage without consent
+Abandonment of Child|BNS Section 92|Up to 7 Years|Abandoning child under twelve years
+Child Labour in Hazardous Work|Child Labour Act Section 3|Imprisonment and Fine|Employing child in hazardous work
+Bonded Labour Employment|Bonded Labour Act|Up to 3 Years|Forcing bonded labour
+Illegal Adoption|JJ Act Section 80|Up to 5 Years|Adoption without legal procedure
+Child Begging|JJ Act Section 76|Up to 5 Years|Using child for begging
+Juvenile Exploitation|JJ Act Section 79|Up to 7 Years|Exploitation of children
+Theft by Clerk or Servant|BNS Section 304|Up to 7 Years|Theft by employee or servant
+Extortion by Threat of Death|BNS Section 312|Up to 10 Years|Extortion by threat to life
+Robbery Causing Hurt|BNS Section 310|Life Imprisonment|Robbery causing grievous hurt
+Dacoity with Murder|BNS Section 311|Death or Life Imprisonment|Dacoity involving murder
+Habitual Receiving of Stolen Property|BNS Section 308|Life Imprisonment|Repeated dealing in stolen goods
+Mischief Causing Damage|BNS Section 321|Up to 2 Years|Damage to property
+Mischief by Fire|BNS Section 322|Up to 7 Years|Property damage by fire
+Forgery of Will|BNS Section 336|Life Imprisonment|Forgery of will or authority
+Counterfeiting Government Stamp|BNS Section 338|Life Imprisonment|Forging government stamps
+Possession of Counterfeit Currency|BNS Section 339|Up to 7 Years|Possessing fake currency knowingly
+Threatening Witness|BNS Section 231|Up to 7 Years|Threatening or inducing witness
+Harbouring Offender|BNS Section 214|Up to 5 Years|Sheltering criminal knowingly
+Harbouring Dacoit|BNS Section 215|Up to 10 Years|Sheltering dacoit
+Promoting Enmity Between Groups|BNS Section 196|Up to 3 Years|Acts promoting hatred
+Statements Causing Public Fear|BNS Section 197|Up to 6 Years|False statements causing panic
+Insult to National Symbols|National Honour Act|Up to 3 Years|Insulting national flag or anthem
+Disobedience of Public Order|BNS Section 223|Up to 6 Months|Violation of lawful orders
+Illegal Assembly with Arms|BNS Section 189|Up to 3 Years|Unlawful armed assembly
+Smuggling of Prohibited Goods|Customs Act Section 135|Up to 7 Years|Illegal import or export
+False Customs Declaration|Customs Act|Fine or Jail|Submitting false customs information
+Hawala Transactions|FEMA Act|Penalty and Jail|Illegal foreign exchange transfer
+Violation of FEMA Rules|FEMA Act Section 13|Heavy Penalty|Contravention of forex laws
+Fake Invoice GST Fraud|CGST Act Section 132|Up to 5 Years|Issuing fake GST invoices
+Input Tax Credit Fraud|CGST Act Section 132|Up to 5 Years|Wrong ITC claims
+Corporate Fraud|Companies Act Section 447|Up to 10 Years|Fraud by company officials
+Shell Company Operation|Companies Act|Imprisonment|Running fake companies
+Insider Trading|SEBI Act Section 15G|Penalty and Jail|Trading using unpublished price info
+Market Manipulation|SEBI Act Section 12A|Imprisonment|Artificial price manipulation
+Ponzi Scheme Operation|BUDS Act|Imprisonment and Fine|Running ponzi or chit fund scams
+Unregulated Deposit Scheme|BUDS Act|Up to 10 Years|Illegal deposit collection
+Food Adulteration|FSS Act Section 59|Life Imprisonment|Selling unsafe or adulterated food
+Food Misbranding|FSS Act Section 52|Fine|False or misleading food labels
+Sale of Expired Drugs|Drugs Act|Imprisonment or Fine|Selling expired medicines
+Manufacture of Spurious Drugs|Drugs Act|Life Imprisonment|Making fake medicines
+Illegal Clinical Trial|Drugs Act|Imprisonment|Conducting unauthorized trials
+Illegal Organ Trade|Transplant Act Section 19|Up to 10 Years|Trading human organs
+Illegal Wildlife Trade|Wildlife Act Section 9|Up to 7 Years|Trading protected animals
+Forest Produce Theft|Forest Act|Imprisonment|Illegal removal of forest produce
+Illegal Quarrying|MMDR Act Section 21|Imprisonment and Fine|Mining without permit
+Water Pollution|Water Act Section 24|Imprisonment|Polluting water bodies
+Operating Without Pollution Clearance|Air Act Section 21|Fine and Closure|Operating without consent
+Plastic Waste Violation|Plastic Waste Rules|Penalty|Illegal plastic manufacture or use
+Noise Pollution Violation|Noise Rules|Fine|Excessive noise beyond limits
+Copyright Piracy|Copyright Act Section 63|Up to 3 Years|Illegal copying of content
+Software Piracy|Copyright Act Section 63B|Up to 3 Years|Unauthorized software use
+Trademark Infringement|Trademark Act Section 103|Up to 3 Years|Using fake brand marks
+Cyber Cheating|IT Act Section 66D|Up to 3 Years|Online impersonation fraud
+Unauthorized Access to System|IT Act Section 43|Compensation|Accessing computer without permission
+Online Identity Impersonation|IT Act Section 66C|Up to 3 Years|Digital identity misuse
+Publishing Sexually Explicit Content|IT Act Section 67A|Up to 7 Years|Publishing explicit content online
+Cyber Terror Funding|IT Act Section 66F|Life Imprisonment|Funding cyber terrorism
+Aadhaar Authentication Fraud|Aadhaar Act Section 37|Up to 3 Years|Fraud in Aadhaar authentication
+SIM Card Fraud|Telecom Act|Imprisonment and Fine|Obtaining SIM using fake identity
+ATM Card Cloning|BNS Section 316|Up to 7 Years|Cloning ATM or debit cards
+UPI Payment Fraud|BNS Section 316|Up to 7 Years|Cheating through UPI platforms
+Fake Online Investment Apps|BNS Section 316|Up to 7 Years|Fraudulent investment applications
+Digital Arrest Scam|BNS Section 316|Up to 7 Years|Impersonating police online
+Online Blackmail|BNS Section 351|Up to 2 Years|Threats using digital platforms
+Drone Flying Without Permission|Drone Rules 2021|Fine or Seizure|Unauthorized drone operation
+Illegal Surveillance|IT Act|Imprisonment|Monitoring communications illegally
+Foreign Funding Violation|FCRA Act|Imprisonment and Fine|Illegal foreign contribution
+Election Misinformation Online|RPA Act|Penalty|False election information online
+Paid Political Advertising Without Disclosure|RPA Act|Penalty|Undisclosed paid political ads
+Attempt to Commit Offence|BNS Section 62|Punishment as provided for offence|Attempt to commit an offence punishable under BNS
+Common Intention Offence|BNS Section 3|As per offence|Criminal act done by several persons with common intention
+Abetment by Instigation|BNS Section 45|As per offence|Instigating another to commit an offence
+Abetment by Conspiracy|BNS Section 46|As per offence|Aiding offence by conspiracy
+Abetment by Aid|BNS Section 47|As per offence|Aiding offence by act or omission
+Habitual Offender Enhanced Punishment|BNS Section 10|Enhanced punishment|Repeat commission of specified offences
+Unlawful Omission by Public Servant|BNS Section 197|Up to 3 Years|Public servant disobeying law with intent to cause injury
+False Information to Public Servant|BNS Section 197A|Up to 6 Months|Giving false information to cause misuse of lawful power
+Resistance to Arrest|BNS Section 221|Up to 3 Months|Obstructing lawful arrest
+Escape from Custody|BNS Section 223|Up to 2 Years|Escaping from lawful custody
+Harbouring Escaped Person|BNS Section 224|Up to 3 Years|Harbouring a person who has escaped custody
+Disappearance of Evidence|BNS Section 227|Up to 7 Years|Causing evidence to disappear
+False Charge of Offence|BNS Section 230|Up to 7 Years|False accusation with intent to injure
+Threatening Witness|BNS Section 231|Up to 7 Years|Threats to influence witness testimony
+Personation in Judicial Proceeding|BNS Section 232|Up to 3 Years|Impersonation in court proceedings
+Contemptuous Conduct in Court|BNS Section 233|Up to 6 Months|Intentional insult to court authority
+Public Servant Taking Gratification|PC Act Section 7|Up to 7 Years|Public servant accepting illegal gratification
+Bribe to Public Servant|PC Act Section 8|Up to 7 Years|Offering bribe to public servant
+Criminal Misconduct by Public Servant|PC Act Section 13|Up to 10 Years|Abuse of official position
+Election Bribery|RPA Section 171B|Fine|Bribing voters during elections
+Personation at Election|RPA Section 171D|Up to 1 Year|Voting or attempting to vote in another’s name
+False Statement in Election|RPA Section 171G|Fine|False statements in election matters
+Illegal Campaign Expenditure|RPA Act|Penalty|Exceeding prescribed election expenses
+Unauthorized Public Procession|BNS Section 187|Up to 6 Months|Procession without lawful permission
+Violation of Prohibitory Orders|BNS Section 188|Up to 6 Months|Disobedience of lawful public order
+Obstruction of Emergency Services|BNS Section 221A|Up to 1 Year|Obstructing emergency responders
+Damage to Public Property|PDPP Act|Imprisonment and Fine|Destruction of public property
+Arson of Dwelling House|BNS Section 322|Up to Life Imprisonment|Setting fire to dwelling house
+Arson of Public Property|BNS Section 323|Up to 10 Years|Setting fire to public property
+Mischief by Explosive Substance|BNS Section 324|Up to 10 Years|Damage using explosives
+Criminal Trespass|BNS Section 302|Up to 3 Months|Entering property with criminal intent
+House Breaking|BNS Section 306|Up to 2 Years|Breaking into house unlawfully
+Night House Breaking|BNS Section 307|Up to 3 Years|House breaking by night
+Lurking House Trespass|BNS Section 308|Up to 2 Years|Concealed unlawful entry
+Cheating by Personation|BNS Section 317|Up to 7 Years|Cheating by pretending to be another person
+Cheating with Knowledge of Loss|BNS Section 318|Up to 5 Years|Cheating knowing it will cause loss
+Forgery for Purpose of Cheating|BNS Section 334|Up to 7 Years|Forgery intended to cheat
+Falsification of Accounts|BNS Section 338|Up to 7 Years|Manipulating financial accounts
+Counterfeiting Property Mark|BNS Section 341|Up to 2 Years|Forging property marks
+Possession of Forged Property Mark|BNS Section 342|Up to 1 Year|Possessing forged property marks
+Criminal Intimidation with Death Threat|BNS Section 352|Up to 7 Years|Threat with death or grievous hurt
+Intentional Insult to Provoke Breach|BNS Section 354|Up to 2 Years|Insult intended to provoke violence
+Statements Promoting Public Mischief|BNS Section 197|Up to 6 Years|Statements causing public panic or disorder
+Obscenity in Public|BNS Section 294|Up to 3 Months|Obscene acts in public places
+Sale of Obscene Material|BNS Section 294A|Up to 2 Years|Selling obscene content
+Adulteration of Food or Drink|BNS Section 274|Up to 6 Months|Adulterating food or drink
+Sale of Noxious Food|BNS Section 275|Up to 6 Months|Selling harmful food or drink
+Adulteration of Drugs|Drugs Act Section 17|Imprisonment and Fine|Manufacture of adulterated drugs
+Spurious Drugs Manufacture|Drugs Act Section 17B|Life Imprisonment|Manufacture of spurious drugs
+Unlicensed Medical Practice|Clinical Establishments Act|Fine or Jail|Running medical practice without registration
+Illegal Blood Bank Operation|Drugs Act|Imprisonment|Operating blood bank without license
+Violation of Biomedical Waste Rules|Biomedical Rules|Penalty|Improper disposal of biomedical waste
+Illegal Organ Transplant|Transplant Act Section 18|Up to 10 Years|Transplant without authorization
+Violation of Maternity Benefits|Maternity Benefit Act|Fine|Denial of maternity benefits
+Child Employment Prohibited Work|Child Labour Act|Imprisonment|Employing child in prohibited occupations
+Workplace Sexual Harassment Non-Compliance|POSH Act|Penalty|Failure to comply with POSH provisions
+Wage Non-Payment|Code on Wages|Penalty|Non-payment of statutory wages
+Unsafe Factory Conditions|Factories Act|Fine or Jail|Failure to ensure worker safety
+Contract Labour Violation|CLRA Act|Penalty|Violation of contract labour provisions
+Illegal Strike in Essential Services|ESMA|Imprisonment|Strike in essential services
+Environmental Clearance Violation|EIA Notification|Penalty|Operating without environmental clearance
+Hazardous Waste Handling Violation|Hazardous Waste Rules|Penalty|Improper handling of hazardous waste
+Illegal Tree Felling|Forest Conservation Act|Imprisonment|Felling trees without approval
+Wildlife Habitat Destruction|Wildlife Act|Up to 7 Years|Destroying protected habitat
+Illegal Fishing in Protected Waters|Wildlife Act|Imprisonment|Fishing in protected areas
+Coastal Regulation Zone Violation|CRZ Rules|Penalty|Construction in CRZ areas
+Illegal Quarry Transport|MMDR Act|Imprisonment and Fine|Transporting minerals illegally
+Illegal Water Extraction|Groundwater Rules|Penalty|Unauthorized extraction of groundwater
+Telecom Identity Fraud|Telecom Act|Imprisonment and Fine|Obtaining telecom services by fraud
+Spam and Robocall Violation|Telecom Regulations|Penalty|Unsolicited commercial communications
+Unauthorized Interception|IT Act|Imprisonment|Illegal interception of communications
+Breach of Data Localization|IT Rules|Penalty|Failure to localize required data
+Digital Signature Forgery|IT Act Section 73|Up to 2 Years|Publishing false digital signatures
+False Electronic Record|IT Act Section 65|Up to 2 Years|Tampering with computer source documents
+Online Impersonation Fraud|IT Act Section 66D|Up to 3 Years|Online cheating by impersonation
+Violation of Drone Safety Rules|Drone Rules 2021|Fine or Seizure|Non-compliance with drone safety norms
+Aviation Safety Violation|Aircraft Act|Imprisonment|Acts endangering aircraft safety
+Railway Safety Endangerment|Railways Act|Imprisonment|Acts endangering railway operations
+Port Security Violation|Ports Act|Penalty|Violation of port security regulations
+Maritime Pollution|Merchant Shipping Act|Imprisonment|Pollution from ships
+Illegal Coastal Shipping|Merchant Shipping Act|Penalty|Unauthorized coastal shipping operations
+Attempt to Commit Suicide with Coercion|BNS Section 108A|Up to 10 Years|Forcing or coercing a person to attempt suicide
+Abetment of Crime by Public Servant|BNS Section 49|As per offence|Public servant abetting commission of offence
+Concealment of Design to Commit Offence|BNS Section 52|As per offence|Concealing plan to commit offence
+Unlawful Assembly Continuing After Order|BNS Section 188A|Up to 6 Months|Continuing unlawful assembly after lawful order
+Promoting Secessionist Activities|UAPA Section 13|Up to 7 Years|Activities threatening sovereignty of India
+Membership of Terrorist Organisation|UAPA Section 20|Life Imprisonment|Being member of terrorist organisation
+Raising Funds for Terrorist Act|UAPA Section 17|Life Imprisonment|Raising funds for terrorist activities
+Harbouring Terrorist|UAPA Section 19|Life Imprisonment|Providing shelter to terrorist
+Possession of Proceeds of Terrorism|UAPA Section 21|Life Imprisonment|Holding property from terrorist acts
+Terrorist Recruitment|UAPA Section 18B|Life Imprisonment|Recruiting persons for terrorism
+Cyber Espionage|IT Act Section 66F|Life Imprisonment|Cyber acts aiding espionage
+Unauthorized Access to Government System|IT Act Section 66|Up to 3 Years|Accessing protected government systems
+Critical Infrastructure Attack|IT Act Section 70|Life Imprisonment|Attacking critical information infrastructure
+Breach of National Cyber Security Directions|IT Act Section 70B|Penalty|Non-compliance with CERT-In directions
+Publication of Confidential Defence Information|Official Secrets Act|Up to 14 Years|Leaking defence-related information
+Espionage|Official Secrets Act Section 3|Up to 14 Years|Spying or assisting enemy state
+Illegal Surveillance by Private Entity|IT Act|Imprisonment|Unauthorized monitoring of communications
+Tampering with Electronic Evidence|IT Act Section 65|Up to 2 Years|Altering electronic evidence
+Online Radicalization|UAPA Section 18|Life Imprisonment|Radicalising persons for terrorist acts
+Illegal Possession of Explosives|Explosives Act|Up to 10 Years|Possessing explosives without license
+Manufacture of Explosives without License|Explosives Act|Up to 10 Years|Illegal manufacture of explosives
+Transportation of Explosives Illegally|Explosives Act|Up to 7 Years|Illegal transport of explosives
+Bomb Threat Hoax|BNS Section 197|Up to 6 Years|False bomb threats causing panic
+Use of Explosives to Endanger Life|BNS Section 324|Up to Life Imprisonment|Using explosives to endanger life
+Illegal Arms Manufacturing|Arms Act Section 25|Up to 10 Years|Manufacturing arms without license
+Arms Trafficking|Arms Act|Up to Life Imprisonment|Illegal trade of arms
+Possession of Prohibited Arms|Arms Act Section 7|Up to Life Imprisonment|Possession of prohibited weapons
+Smuggling of Arms|Customs Act|Up to 10 Years|Illegal import or export of arms
+Fake Arms License|Arms Act|Up to 7 Years|Using or issuing forged arms license
+Illegal Ammunition Possession|Arms Act|Up to 7 Years|Possession of ammunition illegally
+Rioting with Deadly Weapons|BNS Section 190|Up to 3 Years|Rioting using deadly weapons
+Mass Violence|BNS Section 191|Up to 5 Years|Violence causing public disorder
+Lynching|BNS Section 103A|Life Imprisonment|Mob violence causing death
+Honour Killing|BNS Section 103B|Life Imprisonment|Killing in name of honour
+Obstruction of Justice|BNS Section 226|Up to 3 Years|Interfering with justice process
+Threatening Judicial Officer|BNS Section 225|Up to 7 Years|Threats to judges or officers
+Escape from Prison|BNS Section 224A|Up to 3 Years|Escaping lawful imprisonment
+Aiding Prison Escape|BNS Section 225A|Up to 5 Years|Helping prisoner escape
+Prison Mutiny|Prisons Act|Imprisonment|Violence or mutiny in prison
+Custodial Violence|BNS Section 330|Up to 7 Years|Violence by authority in custody
+Custodial Death|BNS Section 331|Life Imprisonment|Death caused in custody
+Illegal Detention|BNS Section 128|Up to 1 Year|Detaining person without authority
+Fabrication of Evidence|BNS Section 228|Up to 7 Years|Creating false evidence
+Suppression of Evidence|BNS Section 227A|Up to 7 Years|Suppressing material evidence
+False Confession by Coercion|BNS Section 231A|Up to 7 Years|Forcing false confession
+False Information Leading to Arrest|BNS Section 229A|Up to 7 Years|False info causing wrongful arrest
+Fake FIR Registration|BNS Section 230A|Up to 7 Years|Registering false criminal complaint
+Illegal Search and Seizure|CrPC/BNSS|Disciplinary and Legal Action|Unauthorized search or seizure
+Misuse of Police Powers|BNS Section 197B|Up to 5 Years|Abuse of authority by police
+Bribery in Judicial Proceedings|PC Act|Up to 7 Years|Bribing judicial officials
+Money Laundering via Shell Companies|PMLA Section 4|3 to 7 Years|Laundering through shell entities
+Crypto Asset Money Laundering|PMLA|3 to 7 Years|Laundering via virtual digital assets
+Terror Financing via Crypto|UAPA|Life Imprisonment|Funding terrorism using crypto
+Benami Property Transfer|Benami Act|Up to 7 Years|Transferring benami property
+Illegal Asset Recovery Obstruction|PMLA|Up to 5 Years|Obstructing attachment of assets
+Failure to Report Suspicious Transactions|PMLA|Penalty|Non-reporting by reporting entities
+Bank Wilful Default Fraud|BNS/IPC|Up to 7 Years|Intentional loan default fraud
+Credit Rating Manipulation|SEBI Act|Penalty and Jail|Manipulating credit ratings
+Market Front Running|SEBI Act|Penalty and Jail|Trading ahead of client orders
+Insider Tip Sharing|SEBI Act|Penalty and Jail|Sharing unpublished price sensitive info
+Fake IPO Scam|SEBI Act|Imprisonment|Fraudulent IPO operations
+Unregistered Investment Advisory|SEBI Act|Penalty|Advisory without registration
+Cryptocurrency Ponzi Scheme|BUDS Act|Up to 10 Years|Ponzi using crypto assets
+Illegal Crowdfunding Platform|Companies Act|Penalty|Operating illegal fundraising platform
+Accounting Fraud|Companies Act Section 447|Up to 10 Years|Manipulation of company accounts
+False Financial Statements|Companies Act|Up to 10 Years|Publishing false company statements
+Auditor Collusion Fraud|Companies Act|Up to 10 Years|Auditor colluding in fraud
+GST Refund Fraud|CGST Act Section 132|Up to 5 Years|Fraudulent GST refund claims
+E-Way Bill Fraud|CGST Act|Up to 5 Years|Fake or misuse of e-way bills
+Customs Duty Evasion|Customs Act|Up to 7 Years|Evasion of customs duty
+Trade Based Money Laundering|Customs Act|Up to 7 Years|Money laundering through trade
+Import of Prohibited Goods|Customs Act|Up to 7 Years|Importing banned items
+Export of Restricted Items|Customs Act|Up to 7 Years|Exporting restricted goods
+Environmental Impact Data Falsification|Environment Act|Up to 5 Years|Submitting false EIA data
+Illegal Industrial Discharge|Environment Act|Up to 5 Years|Illegal discharge of pollutants
+Hazardous Chemical Leak|Factories Act|Imprisonment|Leak of hazardous substances
+Violation of Occupational Safety Code|OSH Code|Penalty|Non-compliance with safety norms
+Illegal Mining in Protected Area|MMDR Act|Imprisonment and Fine|Mining in protected zones
+Sand Smuggling Network|MMDR Act|Imprisonment|Organised illegal sand mining
+Groundwater Contamination|Water Act|Imprisonment|Polluting groundwater resources
+Illegal Coastal Construction|CRZ Rules|Demolition and Penalty|Construction in prohibited coastal zones
+Marine Wildlife Poaching|Wildlife Act|Up to 7 Years|Poaching marine protected species
+Illegal Fishing Using Explosives|Wildlife Act|Up to 7 Years|Fishing using explosives
+Illegal Detention of Woman|BNS Section 129A|Up to 3 Years|Wrongful confinement of a woman
+Trafficking for Forced Marriage|BNS Section 143A|Up to Life Imprisonment|Trafficking for marriage exploitation
+Sexual Exploitation by False Promise|BNS Section 69|Up to 10 Years|Sexual exploitation using false promise of marriage
+Forced Religious Conversion|State Anti-Conversion Acts|Imprisonment and Fine|Conversion by force or inducement
+Child Marriage Offence|Prohibition of Child Marriage Act|Up to 2 Years|Marriage involving a minor
+Illegal Surrogacy|Surrogacy Regulation Act|Up to 10 Years|Commercial or illegal surrogacy
+Sex Selection|PCPNDT Act|Up to 5 Years|Sex determination or selection
+Female Foeticide|PCPNDT Act|Up to 5 Years|Abortion based on sex of fetus
+Abandonment of Pregnant Woman|BNS Section 92A|Up to 7 Years|Abandoning pregnant woman
+Domestic Violence Economic Abuse|DV Act Section 3|Imprisonment and Fine|Economic abuse in domestic relationship
+Violation of Protection Order|DV Act Section 31|Up to 1 Year|Breach of domestic violence order
+Workplace Harassment Non-Compliance|POSH Act|Penalty|Failure to implement POSH rules
+Online Sexual Exploitation of Women|IT Act Section 67A|Up to 7 Years|Sexual exploitation via digital platforms
+Cyber Voyeurism|BNS Section 77|Up to 3 Years|Voyeurism using electronic means
+Child Grooming Online|POCSO Act|Up to 5 Years|Online grooming of children
+Live Streaming Child Abuse|POCSO Act|Life Imprisonment|Live sexual abuse of child
+Child Trafficking for Labour|BNS Section 143|Life Imprisonment|Trafficking children for labour
+Child Labour in Hazardous Industry|Child Labour Act|Imprisonment and Fine|Employing child in hazardous work
+Use of Child in Criminal Activity|JJ Act Section 83|Up to 7 Years|Using child to commit crimes
+Sale of Child|JJ Act Section 80|Up to 5 Years|Selling or buying a child
+Cruelty to Child|JJ Act Section 75|Up to 3 Years|Cruel treatment of child
+Illegal Adoption Racketeering|JJ Act|Up to 7 Years|Organised illegal adoption
+Forced Begging|BNS Section 363A|Up to 10 Years|Forcing person to beg
+Human Smuggling|Immigration Laws|Up to 10 Years|Illegal movement of persons
+Fake Visa and Passport Scam|Passport Act|Up to 7 Years|Forgery of travel documents
+Overstay by Foreigner|Foreigners Act|Fine or Jail|Staying beyond permitted period
+Illegal Entry into India|Foreigners Act|Imprisonment|Unauthorized entry into India
+Employment of Illegal Migrant|Immigration Laws|Penalty|Hiring undocumented migrants
+Fake Citizenship Documents|Citizenship Act|Imprisonment|Forgery of citizenship papers
+Illegal Border Crossing|Border Security Laws|Imprisonment|Unauthorized border crossing
+Smuggling of Migrants|Immigration Laws|Up to 10 Years|Smuggling persons across borders
+Harbouring Illegal Immigrants|Foreigners Act|Up to 5 Years|Sheltering illegal migrants
+Money Mule Operations|BNS Section 316|Up to 7 Years|Using accounts to launder money
+Digital Loan App Extortion|BNS Section 351|Up to 3 Years|Threats and harassment by loan apps
+Online Sextortion|BNS Section 503|Up to 3 Years|Blackmail using sexual content
+Impersonation of Government Officer Online|BNS Section 316|Up to 7 Years|Online impersonation fraud
+Fake Government Job Scam|BNS Section 316|Up to 7 Years|Fraudulent government job offers
+Online Education Scam|BNS Section 316|Up to 7 Years|Fake courses or certificates
+Influencer Investment Scam|BNS Section 316|Up to 7 Years|Fraud using influencer promotions
+Deepfake Blackmail|IT Act Section 66|Up to 3 Years|Blackmail using AI-generated media
+AI Voice Cloning Fraud|IT Act Section 66|Up to 3 Years|Fraud using cloned voices
+Identity Theft using Biometrics|IT Act Section 66C|Up to 3 Years|Biometric identity misuse
+Unauthorized Use of Facial Recognition Data|IT Act|Imprisonment|Misuse of facial data
+Breach of Data Protection Obligations|DPDP Act 2023|Penalty|Violation of data protection duties
+Unauthorized Sale of Personal Data|DPDP Act 2023|Penalty|Selling personal data illegally
+Failure to Report Data Breach|DPDP Act 2023|Penalty|Not reporting personal data breach
+Critical Data Mishandling|DPDP Act 2023|Penalty|Improper handling of sensitive data
+Digital Platform Non-Compliance|IT Rules 2021|Penalty or Blocking|Failure to follow intermediary rules
+Algorithmic Manipulation|IT Act|Penalty|Manipulating algorithms to deceive users
+Online Advertisement Fraud|Consumer Protection Act|Penalty|Misleading digital advertisements
+Dark Pattern Usage|Consumer Protection Act|Penalty|Manipulative online design practices
+Fake Reviews Posting|Consumer Protection Act|Penalty|Posting or buying fake reviews
+E-Commerce Seller Fraud|Consumer Protection Act|Penalty|Cheating consumers online
+Misleading Influencer Endorsements|Consumer Protection Act|Penalty|False endorsements by influencers
+Telecom Spam Violation|Telecom Regulations|Penalty|Unsolicited commercial communications
+SIM Card Issued without KYC|Telecom Act|Imprisonment and Fine|Issuing SIM without proper verification
+Illegal Call Masking|Telecom Act|Penalty|Caller ID spoofing
+Unauthorized Bulk Messaging|Telecom Act|Penalty|Mass messaging without approval
+Telecom Interception without Authority|Telecom Act|Imprisonment|Illegal call interception
+Drone Surveillance without Permission|Drone Rules|Fine or Seizure|Unauthorized drone surveillance
+Use of Drone in Restricted Area|Drone Rules|Imprisonment|Drone operation in no-fly zones
+Aerial Photography of Defence Area|Aircraft Act|Imprisonment|Unauthorized aerial imaging
+Airport Security Violation|Aircraft Act|Imprisonment|Security breaches at airports
+Railway Track Sabotage|Railways Act|Life Imprisonment|Endangering railway safety
+Train Obstruction|Railways Act|Up to Life Imprisonment|Obstructing train movement
+Maritime Piracy|Merchant Shipping Act|Life Imprisonment|Piracy at sea
+Illegal Port Entry|Ports Act|Imprisonment|Unauthorized port access
+Oil Spill from Vessel|Merchant Shipping Act|Imprisonment and Fine|Pollution due to oil spill
+Illegal Fishing by Foreign Vessel|Maritime Laws|Imprisonment|Fishing without authorization
+Sexual Assault by Employer|BNS Section 70A|Up to Life Imprisonment|Sexual assault committed by employer or person in authority
+Trafficking for Sexual Exploitation|BNS Section 143B|Life Imprisonment|Trafficking persons for sexual exploitation
+Forced Prostitution|BNS Section 372A|Up to 10 Years|Forcing a person into prostitution
+Running Brothel|Immoral Traffic Act Section 3|Up to 3 Years|Keeping or managing a brothel
+Living on Earnings of Prostitution|Immoral Traffic Act Section 4|Up to 2 Years|Living off earnings of prostitution
+Soliciting Prostitution|Immoral Traffic Act Section 8|Up to 6 Months|Public solicitation for prostitution
+Obscene Acts Near Public Places|Immoral Traffic Act Section 7|Up to 1 Year|Prostitution near public places
+Sexual Exploitation of Transgender Person|Transgender Persons Act|Up to 2 Years|Abuse or exploitation of transgender persons
+Denial of Services to Transgender Person|Transgender Persons Act|Up to 2 Years|Discrimination against transgender persons
+Human Trafficking for Organ Removal|BNS Section 143C|Life Imprisonment|Trafficking for illegal organ removal
+Illegal Organ Brokerage|Transplant Act Section 19A|Up to 10 Years|Acting as illegal organ broker
+Medical Negligence Causing Death|BNS Section 106|Up to 5 Years|Death caused by medical negligence
+Fake Medical Degree|BNS Section 335|Up to 7 Years|Using forged medical qualification
+Illegal Medical Practice|Clinical Establishments Act|Fine or Jail|Practicing medicine without license
+Sale of Prescription Drugs without License|Drugs Act|Imprisonment and Fine|Selling medicines without authorization
+Online Pharmacy Violation|Drugs Act|Penalty|Operating e-pharmacy without compliance
+Blood Donation Racketeering|Drugs Act|Imprisonment|Illegal blood trade
+Violation of Mental Healthcare Rights|Mental Healthcare Act|Penalty|Violation of patient rights
+Unlawful Detention in Rehabilitation Centre|Mental Healthcare Act|Imprisonment|Illegal confinement of patients
+Insurance Claim Fraud|BNS Section 316A|Up to 7 Years|Fraudulent insurance claims
+Health Insurance Scam|BNS Section 316A|Up to 7 Years|Cheating through health insurance
+Bank Loan Fraud|BNS Section 316A|Up to 7 Years|Fraudulent loan procurement
+Credit Card Fraud|IT Act Section 66C|Up to 3 Years|Misuse of credit card details
+Debit Card Skimming|IT Act Section 66C|Up to 3 Years|Cloning debit card data
+Account Takeover Fraud|IT Act Section 66C|Up to 3 Years|Unauthorized account takeover
+Online Marketplace Fraud|Consumer Protection Act|Penalty|Cheating consumers on e-commerce platforms
+False Advertising|Consumer Protection Act|Penalty|Misleading advertisements
+Unfair Trade Practice Online|Consumer Protection Act|Penalty|Deceptive online trade practices
+Non-Disclosure of Sponsored Content|Consumer Protection Act|Penalty|Failure to disclose paid promotions
+Counterfeit Product Sale Online|Consumer Protection Act|Penalty|Selling fake goods online
+Warranty Fraud|Consumer Protection Act|Penalty|False warranty claims
+Violation of Consumer Data Rights|DPDP Act 2023|Penalty|Misuse of consumer personal data
+Cross-Border Data Transfer Violation|DPDP Act 2023|Penalty|Illegal international data transfer
+Data Processing without Consent|DPDP Act 2023|Penalty|Processing data without consent
+Failure to Appoint Data Protection Officer|DPDP Act 2023|Penalty|Non-compliance with DPO requirement
+Children Data Protection Violation|DPDP Act 2023|Penalty|Misuse of children’s personal data
+Cyberbullying of Minor|IT Act|Imprisonment|Online harassment of minors
+Online Hate Campaign|BNS Section 196|Up to 3 Years|Organised online hate speech
+Digital Threats to National Security|IT Act Section 66F|Life Imprisonment|Cyber acts threatening sovereignty
+Fake Government Website|IT Act Section 66D|Up to 3 Years|Impersonation using fake websites
+Phishing via QR Codes|IT Act Section 66D|Up to 3 Years|QR-based phishing fraud
+Social Media Account Hacking|IT Act Section 66|Up to 3 Years|Unauthorized social media access
+Manipulation of Online Trends|IT Act|Penalty|Artificial trend manipulation
+Disinformation Campaign|BNS Section 197|Up to 6 Years|Coordinated spread of false information
+Election Deepfake Misinformation|RPA Act|Penalty|Deepfake misuse in elections
+Foreign Election Interference|UAPA|Life Imprisonment|Foreign influence in elections
+Violation of Model Code of Conduct|Election Rules|Penalty|Election conduct violations
+Illegal Political Funding|RPA Act|Penalty or Disqualification|Unlawful political funding
+Anonymous Political Donations|Election Laws|Penalty|Unreported political donations
+Vote Buying via Digital Payments|RPA Act|Penalty|Buying votes using digital means
+Illegal Exit Poll Publication|RPA Act|Penalty|Publishing exit polls illegally
+Tampering with EVM|Election Laws|Life Imprisonment|Manipulating electronic voting machines
+Illegal Campaign on Social Media|RPA Act|Penalty|Unlawful digital campaigning
+Misuse of Government Advertising|Election Laws|Penalty|Using public ads for political gain
+Public Property Defacement|Prevention of Defacement Act|Fine or Jail|Defacing public property
+Unauthorized Hoardings|Municipal Laws|Penalty|Illegal advertisement hoardings
+Encroachment on Public Land|Land Revenue Laws|Eviction and Fine|Illegal occupation of public land
+Illegal Slum Construction|Municipal Laws|Demolition and Fine|Unauthorized slum development
+Unauthorized Commercial Use of Residential Property|Municipal Laws|Penalty|Misuse of residential property
+Violation of Building Safety Norms|Municipal Laws|Penalty|Unsafe building construction
+Fire Safety Non-Compliance|Fire Services Act|Penalty|Failure to follow fire safety norms
+Operation of Unsafe Public Building|Municipal Laws|Imprisonment|Operating unsafe buildings
+Illegal Parking Operations|Municipal Laws|Penalty|Running illegal parking lots
+Road Encroachment|Municipal Laws|Penalty|Encroaching roadways
+Illegal Toll Collection|Highways Act|Imprisonment|Unauthorized toll collection
+Overloading of Commercial Vehicles|MV Act|Fine and Jail|Overloading transport vehicles
+Operating Vehicle without Fitness Certificate|MV Act|Fine|Driving unfit vehicle
+Tampering with Vehicle Number Plate|MV Act|Fine or Jail|Altering number plates
+Driving Under Influence of Drugs|MV Act Section 185|Fine and Jail|Driving under narcotic influence
+Rash Driving Causing Injury|BNS Section 106A|Up to 5 Years|Rash driving causing injury
+Hit and Run with Injury|MV Act|Imprisonment and Compensation|Accident with escape
+Commercial Vehicle Permit Violation|MV Act|Penalty|Operating without permit
+Unauthorized Ride-Sharing Operation|Transport Laws|Penalty|Illegal ride-sharing services
+Transporting Hazardous Goods Illegally|MV Act|Imprisonment|Illegal transport of hazardous goods
+Sexual Exploitation through Live Streaming|POCSO Act Section 6A|Life Imprisonment|Live streaming of sexual abuse of a child
+Possession of Child Sexual Material|POCSO Act Section 14|Up to 7 Years|Possessing child sexual content
+Failure to Report Child Sexual Offence|POCSO Act Section 19|Up to 6 Months|Failure to report child abuse
+Child Pornography Storage|IT Act Section 67B|Up to 7 Years|Storing child sexual content digitally
+Online Grooming of Child|POCSO Act|Up to 5 Years|Establishing trust with child for sexual abuse
+Child Trafficking for Begging|BNS Section 363A|Up to 10 Years|Trafficking children for begging
+Child Trafficking for Sexual Exploitation|BNS Section 143|Life Imprisonment|Trafficking child for sexual purposes
+Child Trafficking for Forced Labour|BNS Section 143|Life Imprisonment|Trafficking child for forced labour
+Child Abduction for Adoption Racket|BNS Section 137|Up to 10 Years|Abduction for illegal adoption
+Child Abuse in Institutional Care|JJ Act Section 75|Up to 3 Years|Cruelty to child in care institution
+Illegal Foster Care Arrangement|JJ Act|Up to 5 Years|Unauthorized foster care
+Child Marriage Facilitation|PCMA Section 10|Up to 2 Years|Promoting or facilitating child marriage
+Forced Child Marriage|PCMA Section 9|Up to 2 Years|Forcing a minor into marriage
+Sale of Child for Marriage|PCMA Section 11|Up to 2 Years|Selling minor for marriage
+Dowry Harassment Leading to Suicide|BNS Section 80A|Up to Life Imprisonment|Dowry cruelty resulting in suicide
+Cruelty to Married Woman|BNS Section 85|Up to 3 Years|Physical or mental cruelty by husband
+Domestic Violence Physical Abuse|DV Act Section 3|Imprisonment and Fine|Physical abuse in domestic relationship
+Domestic Violence Sexual Abuse|DV Act Section 3|Imprisonment and Fine|Sexual abuse within household
+Domestic Violence Emotional Abuse|DV Act Section 3|Imprisonment and Fine|Emotional abuse in domestic setting
+Domestic Violence Economic Abuse|DV Act Section 3|Imprisonment and Fine|Financial abuse of woman
+Violation of Domestic Protection Order|DV Act Section 31|Up to 1 Year|Breach of court protection order
+Stalking through Digital Means|BNS Section 78|Up to 3 Years|Stalking via electronic communication
+Cyber Voyeurism Using Hidden Devices|BNS Section 77|Up to 3 Years|Secret recording of private acts
+Sexual Harassment via Messaging Apps|BNS Section 75|Up to 3 Years|Harassment through messages
+Blackmail with Intimate Images|BNS Section 503|Up to 3 Years|Threat using private images
+Revenge Porn Publication|IT Act Section 67A|Up to 7 Years|Sharing intimate content without consent
+Deepfake Pornography|IT Act Section 66|Up to 3 Years|AI-generated explicit fake content
+Impersonation using Deepfake Video|IT Act Section 66D|Up to 3 Years|Fraud using deepfake videos
+AI Voice Fraud|IT Act Section 66D|Up to 3 Years|Impersonation using cloned voice
+Identity Theft via Social Media|IT Act Section 66C|Up to 3 Years|Stealing identity from social media
+Account Hacking|IT Act Section 66|Up to 3 Years|Unauthorized access to online accounts
+Data Theft from Cloud Services|IT Act Section 43|Compensation|Unauthorized extraction of cloud data
+Corporate Data Leak|DPDP Act 2023|Penalty|Leakage of personal data by company
+Data Breach by Processor|DPDP Act 2023|Penalty|Failure by data processor to secure data
+Profiling without Consent|DPDP Act 2023|Penalty|User profiling without consent
+Sale of Children’s Data|DPDP Act 2023|Penalty|Illegal sale of children’s personal data
+Cross-App Data Sharing without Consent|DPDP Act 2023|Penalty|Sharing data without user permission
+Biometric Data Misuse|DPDP Act 2023|Penalty|Improper use of biometric information
+Cyber Espionage by Private Entity|IT Act Section 66F|Life Imprisonment|Espionage using cyber means
+Attack on Critical Digital Infrastructure|IT Act Section 70|Life Imprisonment|Cyber attack on critical systems
+Violation of CERT-In Directions|IT Act Section 70B|Penalty|Non-compliance with cyber directions
+Malware Distribution|IT Act Section 66|Up to 3 Years|Spreading malicious software
+Ransomware Attack|IT Act Section 66|Up to 3 Years|Demanding ransom via malware
+Online Extortion|BNS Section 311|Up to 3 Years|Extortion using digital platforms
+Digital Investment Scam|BNS Section 316|Up to 7 Years|Fraudulent digital investments
+Fake Crypto Exchange Operation|BNS Section 316|Up to 7 Years|Running fake crypto platforms
+NFT Scam|BNS Section 316|Up to 7 Years|Fraud involving NFTs
+Online Gaming Fraud|IT Act|Penalty|Manipulated online games for fraud
+Illegal Online Betting Platform|Public Gambling Act|Fine or Jail|Operating illegal betting websites
+Match Fixing via Online Platforms|BNS Section 316|Up to 7 Years|Fixing sports matches digitally
+Money Laundering via Gaming Apps|PMLA Section 4|3 to 7 Years|Laundering money through gaming apps
+Crypto Asset Concealment|PMLA|3 to 7 Years|Concealing crypto crime proceeds
+Fake Digital Wallet Operation|BNS Section 316|Up to 7 Years|Operating fraudulent wallets
+QR Code Scam|IT Act Section 66D|Up to 3 Years|Fraud using fake QR codes
+UPI Autopay Scam|IT Act Section 66D|Up to 3 Years|Misuse of UPI autopay
+ATM Cash Trapping|BNS Section 316|Up to 7 Years|Trapping cash in ATM fraud
+POS Machine Manipulation|IT Act Section 66|Up to 3 Years|Tampering POS machines
+Unauthorized Crypto Mining|IT Act|Penalty|Illegal crypto mining operations
+Electricity Theft for Crypto Mining|Electricity Act Section 135|Up to 3 Years|Stealing power for mining
+Fake Online Lottery|BNS Section 316|Up to 7 Years|Fraudulent lottery schemes
+Ponzi Scheme via Messaging Apps|BUDS Act|Up to 10 Years|Ponzi schemes through apps
+Multi-Level Marketing Fraud|BUDS Act|Up to 10 Years|Illegal MLM schemes
+Crowdfunding Scam|BNS Section 316|Up to 7 Years|Fraudulent crowdfunding
+Fake Charity Drives Online|BNS Section 316|Up to 7 Years|Online charity fraud
+Impersonation of Bank Official|BNS Section 316|Up to 7 Years|Bank impersonation fraud
+Phishing Emails|IT Act Section 66D|Up to 3 Years|Fraud via phishing emails
+Smishing Fraud|IT Act Section 66D|Up to 3 Years|Fraud via SMS phishing
+Vishing Fraud|IT Act Section 66D|Up to 3 Years|Voice call phishing fraud
+SIM Swap Scam|IT Act Section 66C|Up to 3 Years|SIM replacement fraud
+Unauthorized Call Recording|IT Act|Imprisonment|Recording calls without consent
+Illegal Bulk Calling|Telecom Act|Penalty|Mass calling without permission
+Caller ID Spoofing|Telecom Act|Penalty|Manipulating caller identification
+Telecom Subscriber Data Leak|Telecom Act|Penalty|Leakage of subscriber information
+Fake Telecom KYC|Telecom Act|Imprisonment|Forged telecom verification
+Drone Delivery without Approval|Drone Rules|Fine or Seizure|Unauthorized drone delivery
+Drone Used for Smuggling|Drone Rules|Imprisonment|Using drones for smuggling
+Drone Surveillance of Restricted Areas|Drone Rules|Imprisonment|Illegal drone surveillance
+Illegal Drone Delivery of Narcotics|NDPS Act|Up to 20 Years|Using drones to transport narcotic substances
+Drug Trafficking via Dark Web|NDPS Act Section 21|10 to 20 Years|Sale of drugs using dark web platforms
+Possession of Commercial Quantity Drugs|NDPS Act Section 21|10 to 20 Years|Possession of drugs in commercial quantity
+Consumption of Narcotic Drugs|NDPS Act Section 27|Up to 1 Year|Consumption of prohibited narcotic substances
+Financing Illicit Drug Trade|NDPS Act Section 27A|Up to 20 Years|Funding narcotic drug trafficking
+Harbouring Drug Offender|NDPS Act Section 27A|Up to 20 Years|Sheltering persons involved in drug trade
+Illegal Cultivation of Cannabis|NDPS Act Section 20|Up to 10 Years|Cultivation of cannabis without license
+Illegal Manufacture of Drugs|NDPS Act Section 22|Up to 10 Years|Manufacturing psychotropic substances illegally
+Use of Minor for Drug Trafficking|NDPS Act Section 27A|Up to 20 Years|Using minors in drug-related crimes
+Repeat Drug Offence|NDPS Act Section 31|Enhanced Punishment|Repeat involvement in drug offences
+Illegal Liquor Manufacturing|Excise Act|Imprisonment and Fine|Manufacturing liquor without license
+Spurious Liquor Sale|Excise Act|Up to Life Imprisonment|Selling toxic or spurious liquor
+Liquor Smuggling|Excise Act|Up to 7 Years|Illegal transport of liquor
+Illegal Liquor Vending Online|Excise Act|Imprisonment|Online sale of liquor without permission
+Liquor Adulteration|Excise Act|Up to Life Imprisonment|Adulterating alcoholic beverages
+Smuggling of Gold|Customs Act|Up to 7 Years|Illegal import or export of gold
+Smuggling of Electronic Goods|Customs Act|Up to 7 Years|Illegal import of electronics
+Smuggling of Wildlife Products|Wildlife Act|Up to 7 Years|Illegal trade of animal products
+Smuggling of Endangered Species|Wildlife Act|Up to 7 Years|Trade of endangered species
+Ivory Trade|Wildlife Act|Up to 7 Years|Illegal trade of ivory
+Poaching in Protected Area|Wildlife Act|Up to 7 Years|Hunting in protected wildlife zones
+Illegal Zoo Operation|Wildlife Act|Imprisonment|Running zoo without authorization
+Transport of Wildlife without Permit|Wildlife Act|Imprisonment|Illegal transport of wild animals
+Forest Fire Caused Deliberately|Forest Act|Up to 10 Years|Intentional forest fire
+Illegal Forest Encroachment|Forest Act|Imprisonment|Encroaching forest land
+Sand Smuggling via Riverbeds|MMDR Act|Imprisonment and Fine|Illegal sand mining from rivers
+Stone Quarrying without Permit|MMDR Act|Imprisonment and Fine|Operating quarry illegally
+Illegal Mining Transportation|MMDR Act|Imprisonment|Transporting mined minerals illegally
+Mining in Eco-Sensitive Zone|MMDR Act|Imprisonment|Mining in protected areas
+Illegal Use of Explosives in Mining|Explosives Act|Up to 10 Years|Unauthorized use of explosives
+Water Theft for Commercial Use|Water Act|Imprisonment|Unauthorized extraction of water
+Groundwater Overextraction|Groundwater Rules|Penalty|Excessive groundwater usage
+Discharge of Toxic Waste|Environment Act Section 15|Up to 5 Years|Dumping toxic waste
+Air Pollution from Industries|Air Act|Imprisonment and Fine|Excessive industrial emissions
+Operating Industry without Consent|Air Act|Closure and Fine|Operating without pollution consent
+Noise Pollution at Night|Noise Rules|Fine|Night-time noise violations
+Plastic Waste Dumping|Plastic Waste Rules|Penalty|Illegal disposal of plastic waste
+E-Waste Illegal Recycling|E-Waste Rules|Penalty|Unauthorized electronic waste recycling
+Biomedical Waste Dumping|Biomedical Rules|Penalty|Improper disposal of medical waste
+Hazardous Waste Storage Violation|Hazardous Waste Rules|Penalty|Improper hazardous waste storage
+Oil Refinery Pollution|Environment Act|Imprisonment|Pollution from oil refineries
+Chemical Gas Leak|Factories Act|Imprisonment|Leak of hazardous gases
+Industrial Accident Non-Reporting|Factories Act|Penalty|Failure to report industrial accidents
+Violation of Safety Audit Norms|Factories Act|Penalty|Ignoring mandatory safety audits
+Illegal Use of Child Labour in Factory|Factories Act|Imprisonment|Employing children in factories
+Wage Discrimination|Code on Wages|Penalty|Unequal wages for same work
+Non-Payment of Minimum Wages|Code on Wages|Penalty|Failure to pay minimum wages
+Delay in Salary Payment|Code on Wages|Penalty|Delayed wage payment
+Violation of Working Hours|OSH Code|Penalty|Exceeding prescribed working hours
+Unsafe Working Conditions|OSH Code|Penalty|Failure to ensure workplace safety
+Employment of Migrant Workers without Registration|OSH Code|Penalty|Unregistered migrant employment
+Sexual Harassment of Worker|POSH Act|Penalty|Harassment at workplace
+Non-Formation of Internal Committee|POSH Act|Penalty|Failure to form IC under POSH
+Denial of Maternity Benefits|Maternity Benefit Act|Penalty|Refusing maternity benefits
+Illegal Termination during Pregnancy|Maternity Benefit Act|Penalty|Unlawful termination of pregnant employee
+Provident Fund Non-Deposit|EPF Act|Imprisonment and Fine|Failure to deposit PF contributions
+ESI Contribution Default|ESI Act|Imprisonment and Fine|Non-payment of ESI contributions
+Illegal Contract Labour Engagement|CLRA Act|Penalty|Violation of contract labour laws
+Unfair Labour Practice|Industrial Disputes Act|Penalty|Unfair practices by employer
+Illegal Retrenchment|Industrial Disputes Act|Penalty|Unlawful termination of workers
+Illegal Strike|Industrial Disputes Act|Penalty|Strike without legal notice
+Lockout without Notice|Industrial Disputes Act|Penalty|Illegal lockout by employer
+Employment Bond Coercion|Labour Laws|Penalty|Forcing workers into illegal bonds
+Bonded Labour Enforcement|Bonded Labour Act|Up to 3 Years|Practising bonded labour
+Human Trafficking for Labour|BNS Section 143|Life Imprisonment|Trafficking for labour exploitation
+Smuggling of Migrant Workers|Immigration Laws|Up to 10 Years|Illegal movement of migrant workers
+Illegal Employment Visa Use|Immigration Laws|Penalty|Working on wrong visa category
+Forged Employment Contracts|BNS Section 335|Up to 7 Years|Using forged job contracts
+Fake Experience Certificates|BNS Section 335|Up to 7 Years|Forgery of experience certificates
+Fake Educational Certificates|BNS Section 335|Up to 7 Years|Forged academic documents
+Online Exam Cheating|BNS Section 316|Up to 7 Years|Cheating in online examinations
+Question Paper Leak|BNS Section 338|Life Imprisonment|Leakage of confidential exam papers
+Impersonation in Online Exams|BNS Section 317|Up to 7 Years|Taking exams on behalf of others
+Use of Bluetooth Devices in Exams|Education Rules|Penalty|Electronic cheating in exams
+Fake Skill Certification|BNS Section 335|Up to 7 Years|Issuing forged skill certificates
+Training Institute Fraud|BNS Section 316|Up to 7 Years|Fraud by training institutes
+Scholarship Scam|BNS Section 316|Up to 7 Years|Fraudulent scholarship claims
+Fake Research Publications|Academic Rules|Penalty|Publishing fake research work
+Forgery of Academic Transcripts|BNS Section 335|Up to 7 Years|Forging school or university transcripts
+Fake University Operation|UGC Act|Imprisonment and Fine|Running unrecognized university
+Unrecognized Degree Issuance|UGC Act|Imprisonment and Fine|Issuing degrees without approval
+Impersonation in Entrance Exams|BNS Section 317|Up to 7 Years|Taking entrance exams for others
+Leakage of Entrance Exam Papers|BNS Section 338|Life Imprisonment|Leak of competitive exam papers
+Use of Spy Devices in Exams|Education Rules|Penalty|Using electronic spy devices in exams
+Academic Data Tampering|IT Act Section 65|Up to 2 Years|Tampering academic digital records
+Fake Internship Certificates|BNS Section 335|Up to 7 Years|Forgery of internship certificates
+Education Loan Fraud|BNS Section 316A|Up to 7 Years|Cheating banks using education loans
+University Grant Misuse|UGC Regulations|Penalty|Misuse of university grants
+Illegal Private Coaching Centres|Education Laws|Penalty|Operating coaching without approval
+Illegal Sale of Question Banks|Copyright Act|Up to 3 Years|Selling copyrighted exam material
+Plagiarism for Commercial Gain|Copyright Act|Up to 3 Years|Selling plagiarized academic work
+Fake Patent Filing|Patents Act|Up to 2 Years|Filing patent with false claims
+Patent Infringement|Patents Act|Imprisonment and Fine|Unauthorized use of patented invention
+Industrial Design Infringement|Designs Act|Penalty|Copying registered industrial design
+Trade Secret Theft|IT Act|Imprisonment|Stealing confidential business information
+Corporate Espionage|IT Act Section 66F|Life Imprisonment|Espionage against corporate infrastructure
+Insider Data Theft|IT Act Section 66|Up to 3 Years|Theft of internal corporate data
+Breach of Confidentiality Agreement|Contract Act|Compensation|Violation of confidentiality terms
+Unlawful Competition|Competition Act|Penalty|Anti-competitive practices
+Price Fixing Cartel|Competition Act|Heavy Penalty|Collusive price fixing
+Abuse of Dominant Position|Competition Act|Penalty|Market dominance abuse
+Bid Rigging|Competition Act|Penalty|Manipulation of tender process
+False Tender Documents|BNS Section 335|Up to 7 Years|Forgery in government tenders
+Government Contract Fraud|BNS Section 316A|Up to 7 Years|Fraud in public procurement
+Blacklisting Evasion|Contract Laws|Penalty|Circumventing government blacklisting
+Corruption in Public Procurement|PC Act|Up to 10 Years|Bribery in procurement
+Misuse of CSR Funds|Companies Act|Up to 5 Years|Misuse of CSR money
+Shell Company for Tax Evasion|Companies Act|Up to 10 Years|Using shell firms to evade tax
+Transfer Pricing Manipulation|Income Tax Act|Penalty and Jail|Manipulating transfer pricing
+Bogus Capital Gains|Income Tax Act|Penalty and Jail|Fake long-term capital gains
+Tax Haven Routing|Income Tax Act|Penalty and Jail|Routing income via tax havens
+Undisclosed Foreign Assets|Black Money Act|Up to 10 Years|Holding undisclosed foreign assets
+False Tax Audit Report|Income Tax Act|Penalty|False reporting by tax auditor
+Wilful Tax Default|Income Tax Act|Up to 7 Years|Intentional non-payment of taxes
+GST Circular Trading Fraud|CGST Act|Up to 5 Years|Fake GST turnover circulation
+GST Fake Registration|CGST Act|Up to 5 Years|Obtaining GST using false details
+Customs Valuation Fraud|Customs Act|Up to 7 Years|Undervaluation of imports
+Import Export Code Misuse|FTDR Act|Penalty|Misuse of IEC code
+Export Incentive Fraud|FTDR Act|Penalty|False export incentive claims
+Violation of Sanctions Regime|Foreign Trade Laws|Penalty|Trade violating sanctions
+Illegal Arms Export|Arms Act|Up to Life Imprisonment|Unauthorized export of weapons
+Defence Equipment Smuggling|Customs Act|Up to Life Imprisonment|Smuggling defence equipment
+Technology Transfer without Approval|FTDR Act|Penalty|Illegal tech transfer
+Illegal Satellite Communication|Telecom Act|Imprisonment|Unauthorized satellite communication
+Radio Frequency Jamming|Telecom Act|Imprisonment|Illegal RF interference
+Unauthorized Spectrum Use|Telecom Act|Imprisonment and Fine|Using spectrum without license
+Fake Mobile Towers|Telecom Act|Imprisonment|Installing fake telecom towers
+Critical Telecom Infrastructure Sabotage|Telecom Act|Life Imprisonment|Damaging telecom infrastructure
+Cable TV Signal Piracy|Cable TV Act|Up to 2 Years|Unauthorized cable signal use
+Broadcast Signal Theft|Copyright Act|Up to 3 Years|Stealing broadcast signals
+OTT Platform Piracy|Copyright Act|Up to 3 Years|Illegal streaming or distribution
+Illegal IPTV Service|Copyright Act|Up to 3 Years|Running illegal IPTV platforms
+Movie Camcording in Theatre|Copyright Act|Up to 3 Years|Recording movies illegally
+Music Piracy|Copyright Act|Up to 3 Years|Unauthorized music distribution
+Sports Broadcasting Piracy|Copyright Act|Up to 3 Years|Illegal sports streaming
+Online Book Piracy|Copyright Act|Up to 3 Years|Illegal e-book distribution
+Circumvention of DRM|Copyright Act|Up to 3 Years|Bypassing digital rights management
+Fake Mobile Apps|IT Act Section 66D|Up to 3 Years|Fraudulent mobile applications
+Malicious App Distribution|IT Act Section 66|Up to 3 Years|Distribution of harmful apps
+Spyware Installation|IT Act Section 66|Up to 3 Years|Installing spyware without consent
+Unauthorized GPS Tracking|IT Act|Imprisonment|Tracking person without consent
+Surveillance Software Sale|IT Act|Imprisonment|Selling illegal surveillance software
+Dark Web Marketplace Operation|IT Act Section 66F|Life Imprisonment|Running illegal dark web marketplaces
+Identity Sale on Dark Web|IT Act Section 72A|Up to 3 Years|Selling personal identity data
+Stolen Data Trade|IT Act Section 72A|Up to 3 Years|Trading stolen personal data
+Biometric Database Hacking|IT Act Section 66|Up to 3 Years|Hacking biometric systems
+Unauthorized Facial Recognition Deployment|IT Act|Penalty|Using facial recognition unlawfully
+Mass Data Scraping|IT Act|Penalty|Unauthorized large-scale data scraping
+Manipulation of Search Results|IT Act|Penalty|Artificial manipulation of search rankings
+Botnet Operation|IT Act Section 66|Up to 3 Years|Operating networks of infected devices
+Distributed Denial of Service Attack|IT Act Section 66|Up to 3 Years|Overloading servers to disrupt services
+Cyber Sabotage of Infrastructure|IT Act Section 66F|Life Imprisonment|Sabotage of critical digital systems
+Fake Emergency Alerts|BNS Section 197|Up to 6 Years|False emergency alerts causing panic
+Fake Emergency Alerts via Mobile|BNS Section 197|Up to 6 Years|Spreading false emergency warnings digitally
+False Disaster Information|Disaster Management Act|Up to 1 Year|Spreading false disaster-related information
+Obstruction of Disaster Relief|Disaster Management Act|Up to 2 Years|Blocking disaster response operations
+Misuse of Disaster Relief Funds|Disaster Management Act|Up to 5 Years|Misappropriation of relief funds
+Hoarding Essential Commodities|Essential Commodities Act|Up to 7 Years|Illegal hoarding of essential goods
+Black Marketing of Medicines|Essential Commodities Act|Up to 7 Years|Illegal sale of essential medicines
+Price Manipulation of Essential Goods|Essential Commodities Act|Up to 7 Years|Artificial price inflation
+Fake Ration Card Usage|NFSA|Imprisonment and Fine|Using forged ration cards
+Diversion of Public Distribution System Goods|NFSA|Up to 5 Years|Diverting subsidized food grains
+Midday Meal Scam|Education / PDS Laws|Imprisonment|Fraud in school meal schemes
+Anganwadi Nutrition Scam|ICDS Scheme|Imprisonment|Misuse of child nutrition funds
+Fraud in Welfare Schemes|IPC/BNS|Up to 7 Years|Cheating in government welfare schemes
+Fake Beneficiary Enrollment|Aadhaar Act|Up to 3 Years|Enrolling fake beneficiaries
+Biometric Authentication Fraud|Aadhaar Act|Up to 3 Years|Misuse of biometric authentication
+Unauthorized Use of Aadhaar Data|Aadhaar Act|Up to 3 Years|Using Aadhaar data illegally
+Fake Birth Certificate|Registration of Births Act|Imprisonment|Forging birth certificates
+Fake Death Certificate|Registration of Deaths Act|Imprisonment|Forging death certificates
+Fake Disability Certificate|Rights of Persons with Disabilities Act|Imprisonment|Forgery of disability documents
+Misuse of Disability Benefits|RPWD Act|Penalty|Illegal use of disability benefits
+Illegal Arms Display on Social Media|Arms Act|Up to 7 Years|Displaying weapons illegally online
+Threat Videos with Weapons|BNS Section 351|Up to 7 Years|Threatening with weapons through videos
+Illegal Firearm Modification|Arms Act|Up to 10 Years|Modifying firearms illegally
+Conversion of Toy Guns to Firearms|Arms Act|Up to 10 Years|Illegal firearm conversion
+Illegal Gun Firing at Celebrations|Arms Act|Up to 7 Years|Firing weapons in public celebrations
+Smuggling of Ammunition|Arms Act|Up to 7 Years|Illegal ammunition trade
+Fake Police Uniform Usage|BNS Section 319|Up to 3 Years|Impersonating police officers
+Impersonation of Government Officer|BNS Section 319|Up to 3 Years|Pretending to be public servant
+Fake Court Orders|BNS Section 335|Up to 7 Years|Forgery of judicial orders
+Fake Government Notifications|BNS Section 335|Up to 7 Years|Forged government notifications
+Illegal Land Registration|Registration Act|Imprisonment|Registering land illegally
+Property Document Forgery|BNS Section 335|Up to 7 Years|Forging land documents
+Land Grabbing|State Land Laws|Imprisonment|Illegal occupation of land
+Illegal Real Estate Project|RERA Act|Up to 3 Years|Launching project without RERA approval
+Diversion of Real Estate Funds|RERA Act|Up to 5 Years|Misuse of buyer funds
+Fake Property Advertisement|RERA Act|Penalty|Misleading real estate ads
+Benami Real Estate Transactions|Benami Act|Up to 7 Years|Property held in benami names
+Illegal Eviction|Rent Control Laws|Penalty|Forcible eviction of tenants
+Fake Rent Agreements|BNS Section 335|Up to 7 Years|Forgery of rental documents
+Unauthorized Demolition|Municipal Laws|Penalty|Illegal demolition of property
+Illegal Water Connection|Municipal Laws|Penalty|Unauthorized water supply connection
+Illegal Electricity Connection|Electricity Act Section 135|Up to 3 Years|Unauthorized power connection
+Tampering with Electricity Meter|Electricity Act Section 135|Up to 3 Years|Manipulating electricity meters
+Gas Pipeline Tampering|Energy Laws|Imprisonment|Tampering gas pipelines
+Illegal LPG Cylinder Storage|Explosives Rules|Imprisonment|Unsafe storage of LPG cylinders
+Fuel Adulteration|Essential Commodities Act|Up to 7 Years|Adulteration of petrol or diesel
+Fake Fuel Pump Operation|Essential Commodities Act|Up to 7 Years|Running fake fuel stations
+Short Delivery of Fuel|Legal Metrology Act|Penalty|Delivering less fuel than shown
+Tampering Weighing Machines|Legal Metrology Act|Penalty|Manipulating weights or measures
+Counterfeit Hallmark Jewellery|BIS Act|Imprisonment|Selling fake hallmark jewellery
+Fake ISI Mark Products|BIS Act|Imprisonment|Using fake ISI certification
+Sale of Substandard Goods|Consumer Protection Act|Penalty|Selling unsafe or substandard products
+Product Recall Non-Compliance|Consumer Protection Act|Penalty|Failure to recall unsafe products
+Refusal of Consumer Refund|Consumer Protection Act|Penalty|Unlawful refusal of refund
+False Product Claims|Consumer Protection Act|Penalty|Making false claims about products
+Unlicensed Food Business|FSS Act|Imprisonment|Running food business without license
+Contaminated Drinking Water Supply|Water Act|Imprisonment|Supplying unsafe drinking water
+Illegal Bottled Water Sale|FSS Act|Imprisonment|Selling water without approval
+Fake Organic Food Label|FSS Act|Penalty|False organic certification
+Illegal Slaughterhouse Operation|Municipal / Animal Laws|Imprisonment|Operating slaughterhouse illegally
+Animal Cruelty in Transport|PCA Act|Fine and Jail|Cruel transport of animals
+Illegal Animal Breeding|Animal Welfare Laws|Penalty|Unregulated animal breeding
+Dog Fighting|PCA Act|Imprisonment|Organizing animal fights
+Wild Animal Captivity without Permit|Wildlife Act|Up to 7 Years|Keeping wild animals illegally
+Zoo Animal Abuse|Wildlife Act|Up to 7 Years|Abuse of animals in zoos
+Illegal Trade of Exotic Pets|Wildlife Act|Up to 7 Years|Trading exotic animals illegally
+Invasive Species Import|Environment Laws|Penalty|Importing invasive species
+Violation of Biosecurity Norms|Environment Laws|Penalty|Breach of biosecurity rules
+Illegal GM Crop Cultivation|Environment / Agriculture Laws|Penalty|Unauthorized GM crop farming
+Seed Adulteration|Seeds Act|Penalty|Selling adulterated seeds
+Fertilizer Adulteration|Fertilizer Control Order|Penalty|Adulterated fertilizers
+Pesticide Misuse|Insecticides Act|Penalty|Unsafe pesticide use
+Illegal Use of Antibiotics in Poultry|Food Safety Laws|Penalty|Using banned antibiotics
+Counterfeit Medicines Distribution|Drugs Act|Life Imprisonment|Distribution of fake medicines
+Medical Device Without Approval|Medical Devices Rules|Penalty|Selling unapproved devices
+Fake Vaccination Certificates|BNS Section 335|Up to 7 Years|Forgery of vaccination records
+Ragging|UGC Anti-Ragging Regulations 2009|Expulsion or Imprisonment|Any act causing physical or mental harassment of students
+Failure to Prevent Ragging|UGC Regulations 2009|Fine and Derecognition|Institution failing to prevent ragging
+Ragging Causing Injury|IPC/BNS Sections|Up to 10 Years|Ragging resulting in physical harm
+Ragging Leading to Death|BNS Section 103|Life Imprisonment|Death caused due to ragging
+Sexual Harassment in Campus|POSH Act 2013|Disciplinary Action|Sexual harassment within educational institutions
+Non-Formation of Internal Committee|POSH Act|Penalty|Failure to form ICC in institution
+Sexual Harassment by Teacher|BNS Section 75|Up to 3 Years|Teacher sexually harassing student
+Sexual Assault on Student|BNS / POCSO Act|Up to Life Imprisonment|Sexual assault in educational institution
+Child Sexual Abuse in School|POCSO Act|Life Imprisonment|Sexual abuse of minor student
+Failure to Report Child Abuse|POCSO Act Section 19|Up to 6 Months|Failure to report child abuse
+Corporal Punishment|RTE Act Section 17|Disciplinary Action|Physical punishment to students
+Mental Harassment of Students|RTE Act|Penalty|Mental cruelty by staff
+Denial of Admission without Reason|RTE Act|Penalty|Illegal denial of school admission
+Discrimination Against Students|RTE Act|Penalty|Discrimination based on caste or gender
+Charging Capitation Fee|RTE Act / State Laws|Fine or Jail|Illegal collection of admission fees
+Fake Degree Issuance|UGC Act|Imprisonment and Fine|Issuing unrecognized degrees
+Unrecognized College Operation|UGC Act|Closure and Fine|Running college without approval
+Fake University Operation|UGC Act Section 24|Imprisonment|Operating fake university
+Withholding Certificates|UGC Regulations|Penalty|Illegal retention of student certificates
+Excess Fee Collection|UGC / State Fee Acts|Penalty|Charging fees beyond approved structure
+Hostel Harassment|UGC Guidelines|Disciplinary Action|Harassment inside hostel premises
+Hostel Safety Violation|UGC / AICTE Norms|Penalty|Failure to ensure hostel safety
+Alcohol Sale in Campus|State Excise Laws|Imprisonment|Selling alcohol in educational campus
+Drug Possession in Campus|NDPS Act|Up to 10 Years|Possession of narcotics in campus
+Drug Peddling Near School|NDPS Act Section 24|Up to 20 Years|Selling drugs near school
+Smoking in Campus|COTPA Act|Fine|Smoking in educational premises
+Sale of Tobacco Near School|COTPA Act Section 6|Fine|Tobacco sale within 100 meters
+Weapon Possession in Campus|Arms Act|Imprisonment|Possession of weapons in campus
+Cyber Bullying of Student|IT Act / BNS|Up to 3 Years|Online harassment of students
+Online Exam Cheating|BNS Section 316|Up to 7 Years|Cheating in online examinations
+Impersonation in Exams|BNS Section 317|Up to 7 Years|Writing exam on behalf of another
+Question Paper Leak|BNS Section 338|Life Imprisonment|Leak of examination papers
+Fake Attendance Records|Education Regulations|Penalty|Manipulating attendance data
+Forged Mark Sheets|BNS Section 335|Up to 7 Years|Forgery of academic records
+Plagiarism in Research|UGC Regulations|Penalty|Academic plagiarism in colleges
+Sexual Harassment via Online Class|IT Act / POSH|Penalty|Harassment during online education
+Unauthorized CCTV Surveillance|IT Act|Penalty|Illegal monitoring of students
+Data Breach of Student Records|DPDP Act 2023|Penalty|Leakage of student personal data
+Unauthorized Collection of Student Data|DPDP Act 2023|Penalty|Collecting data without consent
+Failure to Provide Fire Safety|Fire Safety Act|Penalty|Lack of fire safety in institutions
+Unsafe School Infrastructure|RTE Act|Penalty|Unsafe school buildings
+Transport Safety Violation|Motor Vehicles Act|Penalty|Unsafe school transport
+Employment of Unqualified Teachers|RTE / UGC|Penalty|Hiring unqualified teaching staff
+Forced Religious Activity|Constitutional Rights|Penalty|Forcing students into religious acts
+Political Activity in Campus|Election Laws|Penalty|Illegal political campaigning
+Unauthorized Protest in Campus|BNS Section 188|Penalty|Unlawful campus protest
