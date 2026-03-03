@@ -1,0 +1,61 @@
+{
+  "theft": {
+    "law_section": "Theft Act 1968",
+    "offence": "Theft",
+    "punishment": "Up to 7 years imprisonment",
+    "explanation": "Dishonestly appropriating property belonging to another with intent to permanently deprive.",
+    "next_steps": [
+      "Report to local police",
+      "Obtain crime reference number",
+      "Provide evidence if available"
+    ]
+  },
+
+  "fraud": {
+    "law_section": "Fraud Act 2006",
+    "offence": "Fraud",
+    "punishment": "Up to 10 years imprisonment or fine",
+    "explanation": "Fraud by false representation or abuse of position.",
+    "next_steps": [
+      "Report to Action Fraud",
+      "Preserve financial records",
+      "Follow police guidance"
+    ]
+  },
+
+  "domestic_violence": {
+    "law_section": "Domestic Abuse Act 2021",
+    "offence": "Domestic Abuse",
+    "punishment": "Restraining orders and imprisonment",
+    "explanation": "Provides protection from physical, emotional, and economic abuse.",
+    "next_steps": [
+      "Contact police or emergency services",
+      "Seek protection order",
+      "Contact domestic abuse helpline"
+    ]
+  },
+
+  "cyber_crime": {
+    "law_section": "Computer Misuse Act 1990",
+    "offence": "Cyber Crime",
+    "punishment": "Fines or imprisonment",
+    "explanation": "Unauthorized access to computer systems.",
+    "next_steps": [
+      "Report to Action Fraud",
+      "Secure affected accounts",
+      "Preserve evidence"
+    ]
+  },
+
+  "accident": {
+    "law_section": "Road Traffic Act 1988",
+    "offence": "Road Traffic Accident",
+    "punishment": "Fines, license points, imprisonment in severe cases",
+    "explanation": "Regulates road safety and accident liability.",
+    "next_steps": [
+      "Report accident to police",
+      "Exchange insurance details",
+      "Seek medical attention"
+    ]
+  }
+}
