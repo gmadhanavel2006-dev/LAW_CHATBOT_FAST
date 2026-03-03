@@ -1,5 +1,5 @@
-requests
 fastapi
 uvicorn
-requests
+langdetect
+deep-translator
 python-dotenv

@@ -1,23 +1,36 @@
 import json
 import os
 
-def load_latest_law_data(country: str):
-    base_path = os.path.join("law_data", country)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LAW_DIR = os.path.join(BASE_DIR, "law_data")
 
-    if not os.path.exists(base_path):
-        raise FileNotFoundError("Country law data not available")
 
-    versions = sorted(
-        [f for f in os.listdir(base_path) if f.endswith(".json")]
-    )
+def load_law_data(country: str) -> list:
+    try:
+        path = os.path.join(LAW_DIR, f"{country.lower()}.json")
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, list):
+                return data
+            return []
+    except Exception:
+        return []
 
-    if not versions:
-        raise FileNotFoundError("No law versions found")
 
-    latest_version = versions[-1]
-    file_path = os.path.join(base_path, latest_version)
+def match_relevant_laws(issue_description: str, law_data: list) -> list:
+    """
+    SAFE dynamic matching.
+    Skips invalid law entries.
+    """
+    results = []
+    issue_lower = issue_description.lower()
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    for law in law_data:
+        if not isinstance(law, dict):
+            continue  # 🔒 CRITICAL SAFETY
 
-    return data["laws"], data["meta"]
+        explanation = law.get("explanation", "").lower()
+        if any(word in explanation for word in issue_lower.split()):
+            results.append(law)
+
+    return results[:3]

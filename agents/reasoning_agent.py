@@ -1,21 +1,9 @@
-def legal_reasoning(issue: str, user_input: str, law_info: dict):
-    reasons = []
+def build_legal_reasoning(issue: str, matched_laws: list, country: str) -> str:
+    if not matched_laws:
+        return f"The issue appears legally relevant in {country}, but no exact law match was found."
 
-    text = user_input.lower()
-
-    if issue == "theft":
-        if any(word in text for word in ["stolen", "steal", "திருட", "चोरी"]):
-            reasons.append("Movable property appears to be taken")
-        if any(word in text for word in ["without permission", "without consent", "திருட"]):
-            reasons.append("Property taken without consent")
-        reasons.append("Indicates dishonest intention")
-
-    elif issue == "fraud":
-        if any(word in text for word in ["cheated", "scam", "மோசடி", "धोखा"]):
-            reasons.append("User was deceived intentionally")
-        reasons.append("Dishonest inducement detected")
-
-    return {
-        "reasoning": reasons,
-        "conclusion": f"{law_info.get('section')} is applicable based on the identified facts."
-    }
+    return (
+        f"The issue involves legal concerns in {country}. "
+        f"Based on the nature of the problem, certain laws may apply "
+        f"to protect rights and define consequences."
+    )
